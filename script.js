@@ -3228,15 +3228,14 @@ document.addEventListener("DOMContentLoaded", function() {
       "Location": "Outpost",
       "Area": "Dairy"
     },
-    {
-      "Item ID": 5601,
+    {      "Item ID": 5601,
       "Name": "CHEERIOS - CUP",
       "Unit Size": "60/CS",
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5569,
@@ -3245,8 +3244,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5678,
@@ -3255,8 +3254,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5045,
@@ -3265,8 +3264,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7737,
@@ -3275,8 +3274,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5290,
@@ -3285,8 +3284,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7762,
@@ -3295,8 +3294,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5334,
@@ -3305,8 +3304,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7686,
@@ -3315,8 +3314,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7614,
@@ -3325,8 +3324,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7535,
@@ -3335,8 +3334,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5686,
@@ -3345,8 +3344,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5650,
@@ -3355,8 +3354,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5822,
@@ -3365,8 +3364,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5695,
@@ -3375,8 +3374,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5608,
@@ -3385,8 +3384,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6316,
@@ -3395,8 +3394,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6315,
@@ -3405,8 +3404,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7961,
@@ -3415,8 +3414,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7962,
@@ -3425,8 +3424,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7857,
@@ -3435,8 +3434,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7991,
@@ -3445,8 +3444,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4199,
@@ -3455,8 +3454,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5744,
@@ -3465,8 +3464,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5741,
@@ -3475,8 +3474,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5750,
@@ -3485,8 +3484,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5731,
@@ -3495,8 +3494,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7916,
@@ -3505,8 +3504,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7902,
@@ -3515,8 +3514,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 50072,
@@ -3525,8 +3524,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5081,
@@ -3535,8 +3534,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5100,
@@ -3545,8 +3544,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5156,
@@ -3555,8 +3554,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5061,
@@ -3565,8 +3564,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5101,
@@ -3575,8 +3574,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5145,
@@ -3585,8 +3584,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7701,
@@ -3595,8 +3594,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7736,
@@ -3605,8 +3604,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7756,
@@ -3615,8 +3614,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 39,
@@ -3625,8 +3624,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6270,
@@ -3635,8 +3634,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6294,
@@ -3645,8 +3644,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5728,
@@ -3655,8 +3654,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7692,
@@ -3665,8 +3664,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5383,
@@ -3675,8 +3674,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5225,
@@ -3685,8 +3684,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5336,
@@ -3695,8 +3694,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5326,
@@ -3705,8 +3704,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4870,
@@ -3715,8 +3714,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5273,
@@ -3725,8 +3724,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4853,
@@ -3735,8 +3734,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5324,
@@ -3745,8 +3744,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7999,
@@ -3755,8 +3754,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4857,
@@ -3765,8 +3764,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7728,
@@ -3775,8 +3774,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7731,
@@ -3785,8 +3784,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5187,
@@ -3795,8 +3794,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6316,
@@ -3805,8 +3804,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6319,
@@ -3815,8 +3814,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5059,
@@ -3825,8 +3824,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5206,
@@ -3835,8 +3834,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5022,
@@ -3845,8 +3844,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5074,
@@ -3855,8 +3854,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6272,
@@ -3865,8 +3864,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6274,
@@ -3875,8 +3874,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5679,
@@ -3885,8 +3884,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6641,
@@ -3895,8 +3894,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 50381,
@@ -3905,8 +3904,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5886,
@@ -3915,8 +3914,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6620,
@@ -3925,8 +3924,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6615,
@@ -3935,8 +3934,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6618,
@@ -3945,8 +3944,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5215,
@@ -3955,8 +3954,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5214,
@@ -3965,8 +3964,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6244,
@@ -3975,8 +3974,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5550,
@@ -3985,8 +3984,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7752,
@@ -3995,8 +3994,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "GROCERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3085,
@@ -4005,8 +4004,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3226,
@@ -4015,8 +4014,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5752,
@@ -4025,8 +4024,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7055,
@@ -4035,8 +4034,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4038,
@@ -4045,8 +4044,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1381,
@@ -4055,8 +4054,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4053,
@@ -4065,8 +4064,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1682,
@@ -4075,8 +4074,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1676,
@@ -4085,8 +4084,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1675,
@@ -4095,8 +4094,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1673,
@@ -4105,8 +4104,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5932,
@@ -4115,8 +4114,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5272,
@@ -4125,8 +4124,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5835,
@@ -4135,8 +4134,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5838,
@@ -4145,8 +4144,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1471,
@@ -4155,8 +4154,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1281,
@@ -4165,8 +4164,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1282,
@@ -4175,8 +4174,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5212,
@@ -4185,8 +4184,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6984,
@@ -4195,8 +4194,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6413,
@@ -4205,8 +4204,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5221,
@@ -4215,8 +4214,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6412,
@@ -4225,8 +4224,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7789,
@@ -4235,8 +4234,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5715,
@@ -4245,8 +4244,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5723,
@@ -4255,8 +4254,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5726,
@@ -4265,8 +4264,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5718,
@@ -4275,8 +4274,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5712,
@@ -4285,8 +4284,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN COOLER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5532,
@@ -4295,8 +4294,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5396,
@@ -4305,8 +4304,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5441,
@@ -4315,8 +4314,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5042,
@@ -4325,8 +4324,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5461,
@@ -4335,8 +4334,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5460,
@@ -4345,8 +4344,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5090,
@@ -4355,8 +4354,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7572,
@@ -4365,8 +4364,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7573,
@@ -4375,8 +4374,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 5043,
@@ -4385,8 +4384,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7570,
@@ -4395,8 +4394,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3594,
@@ -4405,8 +4404,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3589,
@@ -4415,8 +4414,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3596,
@@ -4425,8 +4424,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "WALK-IN FREEZER",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54188,
@@ -4435,8 +4434,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54177,
@@ -4445,8 +4444,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54175,
@@ -4455,8 +4454,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54180,
@@ -4465,8 +4464,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54178,
@@ -4475,8 +4474,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54181,
@@ -4485,8 +4484,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54176,
@@ -4495,8 +4494,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54158,
@@ -4505,8 +4504,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54157,
@@ -4515,8 +4514,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54160,
@@ -4525,8 +4524,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54155,
@@ -4535,8 +4534,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54154,
@@ -4545,8 +4544,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54153,
@@ -4555,8 +4554,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54150,
@@ -4565,8 +4564,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54151,
@@ -4575,8 +4574,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54173,
@@ -4585,8 +4584,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54172,
@@ -4595,8 +4594,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54171,
@@ -4605,8 +4604,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54170,
@@ -4615,8 +4614,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54169,
@@ -4625,8 +4624,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54183,
@@ -4635,8 +4634,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54184,
@@ -4645,8 +4644,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54187,
@@ -4655,8 +4654,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54186,
@@ -4665,8 +4664,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54182,
@@ -4675,8 +4674,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54195,
@@ -4685,8 +4684,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54193,
@@ -4695,8 +4694,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 54192,
@@ -4705,8 +4704,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "SALADS & SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7610,
@@ -4715,8 +4714,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3502,
@@ -4725,8 +4724,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1521,
@@ -4735,8 +4734,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4417,
@@ -4745,8 +4744,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4419,
@@ -4755,8 +4754,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1573,
@@ -4765,8 +4764,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1589,
@@ -4775,8 +4774,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1384,
@@ -4785,8 +4784,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1758,
@@ -4795,8 +4794,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1006,
@@ -4805,8 +4804,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1641,
@@ -4815,8 +4814,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3321,
@@ -4825,8 +4824,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1678,
@@ -4835,8 +4834,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3320,
@@ -4845,8 +4844,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4842,
@@ -4855,8 +4854,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4846,
@@ -4865,8 +4864,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 52427,
@@ -4875,8 +4874,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - DAIRY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1683,
@@ -4885,8 +4884,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4365,
@@ -4895,8 +4894,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3081,
@@ -4905,8 +4904,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4383,
@@ -4915,8 +4914,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3180,
@@ -4925,8 +4924,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4403,
@@ -4935,8 +4934,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4385,
@@ -4945,8 +4944,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4399,
@@ -4955,8 +4954,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1685,
@@ -4965,8 +4964,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3182,
@@ -4975,8 +4974,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4402,
@@ -4985,8 +4984,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1684,
@@ -4995,8 +4994,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4404,
@@ -5005,8 +5004,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 52073,
@@ -5015,8 +5014,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4651,
@@ -5025,8 +5024,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7745,
@@ -5035,8 +5034,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 52023,
@@ -5045,8 +5044,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7744,
@@ -5055,8 +5054,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3957,
@@ -5065,8 +5064,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3950,
@@ -5075,8 +5074,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 52092,
@@ -5085,8 +5084,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7742,
@@ -5095,8 +5094,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 52080,
@@ -5105,8 +5104,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 52252,
@@ -5115,8 +5114,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3916,
@@ -5125,8 +5124,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3930,
@@ -5135,8 +5134,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4937,
@@ -5145,8 +5144,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3947,
@@ -5155,8 +5154,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 7740,
@@ -5165,8 +5164,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "CREAMERY - ICE CREAM",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6195,
@@ -5175,8 +5174,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "ICE CREAM SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 6192,
@@ -5185,8 +5184,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "ICE CREAM SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": "",
@@ -5195,8 +5194,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "ICE CREAM SANDWICHES",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2151,
@@ -5205,8 +5204,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2881,
@@ -5215,8 +5214,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2040,
@@ -5225,8 +5224,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2455,
@@ -5235,8 +5234,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2633,
@@ -5245,8 +5244,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2634,
@@ -5255,8 +5254,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2649,
@@ -5265,8 +5264,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 2922,
@@ -5275,8 +5274,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "BAKERY",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4204,
@@ -5285,8 +5284,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "PSML",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4217,
@@ -5295,8 +5294,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "PSML",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 1901,
@@ -5305,8 +5304,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "PSML",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 3290,
@@ -5315,8 +5314,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "PSML",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4367,
@@ -5325,8 +5324,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "PSML",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
+      "Location": "Provisions",
+      "Area": "Warehouse"
     },
     {
       "Item ID": 4391,
@@ -5335,21 +5334,24 @@ document.addEventListener("DOMContentLoaded", function() {
       "PAR": 0,
       "Order Quantity": 0,
       "Category": "PSML",
-      "Location": "Outpost",
-      "Area": "Provisions - Warehouse"
-    }
+      "Location": "Provisions",
+      "Area": "Warehouse"
+    },
+    
   ];
 
   const cacheKey = "orderChanges";
   let changes = JSON.parse(localStorage.getItem(cacheKey)) || {};
-
-  // Function to populate categories based on selected Location
-  function populateCategories(location) {
-      console.log(`Populating categories for location: ${location}`);
-      const filteredData = data.filter(item => item.Location === location);
+  let currentFilteredData = []; // To store currently displayed items
+  
+  // Function to populate categories based on selected Area
+  function populateCategories(area) {
+      console.log(`Populating categories for area: ${area}`);
+      const filteredData = data.filter(item => item.Area === area);
+      currentFilteredData = filteredData; // Store current data for search functionality
       console.log(filteredData); // Debug log
       const categories = [...new Set(filteredData.map(item => item.Category))];
-
+  
       categorySelect.innerHTML = '';
       categories.forEach(category => {
           const option = document.createElement("option");
@@ -5357,13 +5359,13 @@ document.addEventListener("DOMContentLoaded", function() {
           option.textContent = category;
           categorySelect.appendChild(option);
       });
-
-      // Populate Areas for the first category by default
+  
+      // Populate items for the first category by default
       if (categories.length > 0) {
           categorySelect.value = categories[0];
-          populateAreas(categories[0], location);
+          populateTable(categories[0], area);
       }
-
+  
       // Populate existing categories list (for Manage Categories tab)
       existingCategories.innerHTML = '';
       categories.forEach(category => {
@@ -5372,14 +5374,14 @@ document.addEventListener("DOMContentLoaded", function() {
           existingCategories.appendChild(div);
       });
   }
-
-  // Function to populate Areas based on selected category and Location
-  function populateAreas(category, location) {
-      console.log(`Populating areas for category: ${category} and location: ${location}`);
-      const filteredData = data.filter(item => item.Category === category && item.Location === location);
+  
+  // Function to populate Areas based on selected Location
+  function populateAreas(location) {
+      console.log(`Populating areas for location: ${location}`);
+      const filteredData = data.filter(item => item.Location === location);
       console.log(filteredData); // Debug log
       const areas = [...new Set(filteredData.map(item => item.Area))];
-
+  
       areaSelect.innerHTML = '';
       areas.forEach(area => {
           const option = document.createElement("option");
@@ -5387,21 +5389,28 @@ document.addEventListener("DOMContentLoaded", function() {
           option.textContent = area;
           areaSelect.appendChild(option);
       });
-
-      // Populate items for the first Area by default
+  
+      // Populate categories for the first area by default
       if (areas.length > 0) {
           areaSelect.value = areas[0];
-          populateTable(category, location, areas[0]);
+          populateCategories(areas[0]);
       }
   }
-
-  // Function to populate items table based on selected category, Location, and Area
-  function populateTable(category, location, area) {
-      console.log(`Populating table for category: ${category}, location: ${location}, area: ${area}`);
+  
+  // Function to populate items table based on selected category and Area
+  function populateTable(category, area) {
+      console.log(`Populating table for category: ${category}, area: ${area}`);
       itemTableBody.innerHTML = "";
-      const filteredData = data.filter(item => item.Category === category && item.Location === location && item.Area === area);
+      const filteredData = data.filter(item => item.Category === category && item.Area === area);
+      currentFilteredData = filteredData; // Store current data for search functionality
       console.log(filteredData); // Debug log
-      filteredData.forEach(item => {
+      renderItems(filteredData);
+  }
+  
+  // Function to render items
+  function renderItems(items) {
+      itemTableBody.innerHTML = ''; // Clear existing rows
+      items.forEach(item => {
           const row = document.createElement("tr");
           const cachedQuantity = changes[item["Item ID"]] || item["Order Quantity"];
           row.innerHTML = `
@@ -5409,53 +5418,80 @@ document.addEventListener("DOMContentLoaded", function() {
               <td>${item.Name}</td>
               <td>${item["Unit Size"]}</td>
               <td>
-                  <input type="number" value="${cachedQuantity}" min="0" class="form-control" data-id="${item["Item ID"]}">
+                  <div class="quantity-control">
+                      <button class="quantity-down">-</button>
+                      <input type="number" value="${cachedQuantity}" min="0" class="form-control" data-id="${item["Item ID"]}">
+                      <button class="quantity-up">+</button>
+                  </div>
               </td>
           `;
           itemTableBody.appendChild(row);
       });
-
+  
+      // Add event listeners to quantity buttons
+      document.querySelectorAll("#itemTableBody .quantity-up").forEach(button => {
+          button.addEventListener("click", function() {
+              const input = this.parentElement.querySelector('input');
+              input.value = parseInt(input.value) + 1;
+              updateQuantity(input);
+          });
+      });
+  
+      document.querySelectorAll("#itemTableBody .quantity-down").forEach(button => {
+          button.addEventListener("click", function() {
+              const input = this.parentElement.querySelector('input');
+              if (parseInt(input.value) > 0) {
+                  input.value = parseInt(input.value) - 1;
+                  updateQuantity(input);
+              }
+          });
+      });
+  
       // Add event listeners to inputs
       document.querySelectorAll("#itemTableBody input").forEach(input => {
           input.addEventListener("change", function() {
-              const itemId = this.getAttribute("data-id");
-              changes[itemId] = parseInt(this.value, 10);
-              localStorage.setItem(cacheKey, JSON.stringify(changes));
+              updateQuantity(this);
           });
       });
   }
-
+  
+  function updateQuantity(input) {
+      const itemId = input.getAttribute("data-id");
+      changes[itemId] = parseInt(input.value, 10);
+      localStorage.setItem(cacheKey, JSON.stringify(changes));
+  }
+  
   // Event listener for Location selection
   locationSelect.addEventListener("change", function() {
-      populateCategories(this.value);
+      populateAreas(this.value);
   });
-
-  // Event listener for category selection
-  categorySelect.addEventListener("change", function() {
-      const location = locationSelect.value;
-      populateAreas(this.value, location);
-  });
-
+  
   // Event listener for Area selection
   areaSelect.addEventListener("change", function() {
-      const location = locationSelect.value;
-      const category = categorySelect.value;
-      populateTable(category, location, this.value);
+      populateCategories(this.value);
   });
-
-  // Event listener for starting a new session
-  startNewSessionButton.addEventListener("click", function() {
-      changes = {};
-      localStorage.removeItem(cacheKey);
-      populateCategories(locationSelect.value);
+  
+  // Event listener for category selection
+  categorySelect.addEventListener("change", function() {
+      const area = areaSelect.value;
+      populateTable(this.value, area);
   });
-
+  
+  // Event listener for Search Input
+  document.getElementById('searchInput').addEventListener('input', function() {
+      const searchTerm = this.value.toLowerCase();
+      const filteredItems = currentFilteredData.filter(item =>
+          item["Item ID"].toString().includes(searchTerm) || item.Name.toLowerCase().includes(searchTerm)
+      );
+      renderItems(filteredItems);
+  });
+  
   // Event listener for finishing and sending the order
   finishAndSendButton.addEventListener("click", function() {
       const itemsToOrder = Object.keys(changes).map(itemId => {
           return data.find(item => item["Item ID"] == itemId && changes[itemId] > 0);
       }).filter(item => item);
-
+  
       if (itemsToOrder.length > 0) {
           // Implement the logic to handle this data as required
           alert('Order ready to be sent: ' + JSON.stringify(itemsToOrder));
@@ -5465,7 +5501,7 @@ document.addEventListener("DOMContentLoaded", function() {
           alert('No items to order.');
       }
   });
-
+  
   // Initialize with the first Location
-  populateCategories(locationSelect.value);
-});
+  populateAreas(locationSelect.value);
+  });  
