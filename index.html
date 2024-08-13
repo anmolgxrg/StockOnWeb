@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StockOn - Beta Test</title>
+    <title>StockOn</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container my-5">
-        <h1 class="text-center">StockOn - Beta Test</h1>
+        <h1 class="text-center">StockOn</h1>
         <nav>
             <ul class="nav nav-tabs" id="tabMenu">
                 <li class="nav-item">
@@ -25,12 +25,28 @@
             <!-- View Data Tab -->
             <div class="tab-pane fade show active" id="viewData">
                 <div class="mb-3">
-                    <label for="categorySelect" class="form-label">Select a category</label>
-                    <select id="categorySelect" class="form-select">
-                        <!-- Dynamic categories will be loaded here -->
+                    <label for="locationSelect" class="form-label">Select a location</label>
+                    <select id="locationSelect" class="form-select">
+                        <option value="biscotti's">Biscotti's</option>
+                        <option value="stacks">Stacks</option>
+                        <option value="outpost">Outpost</option>
                     </select>
                 </div>
-                <table class="table table-bordered">
+                
+                <div class="mb-3">
+                    <label for="categorySelect" class="form-label">Select a category</label>
+                    <select id="categorySelect" class="form-select">
+                        <!-- Categories will be populated here -->
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="areaSelect" class="form-label">Select an area</label>
+                    <select id="areaSelect" class="form-select">
+                        <!-- Areas will be populated here -->
+                    </select>
+                </div>
+                                <table class="table table-bordered">
                     <thead>
                         <tr>
                             <th>Item ID</th>
