@@ -2599,506 +2599,6 @@ document.addEventListener("DOMContentLoaded", function() {
       "Area": "PRODUCE"
     },
     {
-      "Item ID": 2262,
-      "Name": "BKY BREAD BAGUETTE",
-      "Unit Size": "LOAF",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2293,
-      "Name": "BKY BREAD ARTISAN MULTIGRAIN 5/8",
-      "Unit Size": "LOAF",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2500,
-      "Name": "SOURDOUGH LOAF",
-      "Unit Size": "LOAF",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": "0704",
-      "Name": "PANNINI BREAD",
-      "Unit Size": "LOAF",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2395,
-      "Name": "BKY A CROISSANT HAM/CHS",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2542,
-      "Name": "BKY A CROISSANT PL LG",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2948,
-      "Name": "CROISSANT - EVERYTHING BAGEL",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2649,
-      "Name": "CROISSANT - CHOCOLATE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2961,
-      "Name": "BKY A DOUNT CHOC ICE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2026,
-      "Name": "BKY A DONUT CINN SUG",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2526,
-      "Name": "BKY A DONUT RSD GLAZED",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2854,
-      "Name": "BKY A DONUT VAN ICE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2098,
-      "Name": "BKY A MUFFIN BANANA",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2097,
-      "Name": "BKY A MUFFIN BLUEBERRY",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2728,
-      "Name": "BKY A MUFFIN PBJ",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2724,
-      "Name": "BKY A MUFFIN CHOC CHIP",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2358,
-      "Name": "BKY CINN SWL LOAF",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2601,
-      "Name": "BKY PUMPKIN LOAF",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2475,
-      "Name": "BKY ZUCCHINI LOAF",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2789,
-      "Name": "BKY BANANA CHIP LOAF",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2433,
-      "Name": "IND BUNDT - LEMON POPPY",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2413,
-      "Name": "BKY Z INDIV CHSCAKE BLUEBERRY",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2318,
-      "Name": "BKY Z SCONE BLUEBERRY",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2439,
-      "Name": "BKY BISCUIT CHEDDAR BACON",
-      "Unit Size": "DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2067,
-      "Name": "BKY STICKY 2.66 OZ PECAN",
-      "Unit Size": "DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2029,
-      "Name": "BKY STICKY 2.66 OZ PL",
-      "Unit Size": "DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2687,
-      "Name": "BKY A ROLL 2.66 OZ CINN",
-      "Unit Size": "DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2977,
-      "Name": "BKY Z HAZELNUT HAND TART",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2346,
-      "Name": "BKY BREAD PULL ORANGE GLZ",
-      "Unit Size": "12 CUT LOAF",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "WALK-IN FREEZER (BAKERY)",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2778,
-      "Name": "AUG/SEPT: ONION POPPY DANISH",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2834,
-      "Name": "OCT:  PUMPKIN WHITE CHOC CHIP SCONE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2864,
-      "Name": "NOV: HAM & CHEESE DANISH",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2177,
-      "Name": "DEC: RASPBERRY FILLED DONUT W/ GANACHE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2352,
-      "Name": "JAN: LARGE VANILLA CREAM PUFF",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2860,
-      "Name": "FEB: SUNDRIED TOMATO & FETA DANISH",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2164,
-      "Name": "MARCH: COUNTRY BACON BRIOCHE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2887,
-      "Name": "APRIL/MAY: PINK LEMONADE MUFFIN",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: DESSERT",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2888,
-      "Name": "AUG/SEPT: UPSIDE DOWN APRICOT CUPCAKE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2497,
-      "Name": "OCT: PUMPKIN WHOOPIE PIE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2903,
-      "Name": "NOV: CHAI APPLE BUNDT CAKE",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2200,
-      "Name": "DEC: WHITE CHOC PEPPERMINT CHEESECAKE",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2801,
-      "Name": "JAN: LINZER TART",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2391,
-      "Name": "FEB: CHERRY LEMON BISCOTTI",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2226,
-      "Name": "MARCH: GRASSHOPPER FUDGE CAKE",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2696,
-      "Name": "APRIL/MAY: OLIVE OIL CAKE W/ LEMON & FIG",
-      "Unit Size": "1/2 DZ",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "SPECIALS: MUFFIN/SCONE",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2551,
-      "Name": "CARROT CAKE",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "CAKES / DESSERTS",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2578,
-      "Name": "CHOCOLATE MOUSSE CAKE",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "CAKES / DESSERTS",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2679,
-      "Name": "CHOCOLATE PB CRUNCH CAKE",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "CAKES / DESSERTS",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2756,
-      "Name": "RED VELVET CAKE",
-      "Unit Size": "EACH",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "CAKES / DESSERTS",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
-      "Item ID": 2132,
-      "Name": "WHOOPIE PIE BL/WH",
-      "Unit Size": "DOZEN",
-      "PAR": 0,
-      "Order Quantity": 0,
-      "Category": "CAKES / DESSERTS",
-      "Location": "Outpost",
-      "Area": "Bakery"
-    },
-    {
       "Item ID": "0751",
       "Name": "MILK HALF&HALF QUART",
       "Unit Size": "QT",
@@ -3228,7 +2728,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "Location": "Outpost",
       "Area": "Dairy"
     },
-    {      "Item ID": 5601,
+    {
+      "Item ID": 5601,
       "Name": "CHEERIOS - CUP",
       "Unit Size": "60/CS",
       "PAR": 0,
@@ -5337,7 +4838,1386 @@ document.addEventListener("DOMContentLoaded", function() {
       "Location": "Provisions",
       "Area": "Warehouse"
     },
-    
+    {
+      "Item ID": 2262,
+      "Name": "BKY BREAD BAGUETTE",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2293,
+      "Name": "BKY BREAD ARTISAN MULTIGRAIN 5/8",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2500,
+      "Name": "SOURDOUGH LOAF",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": "0704",
+      "Name": "PANNINI BREAD",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2542,
+      "Name": "BKY A CROISSANT PL LG",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2649,
+      "Name": "CROISSANT - CHOCOLATE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2395,
+      "Name": "BKY A CROISSANT HAM/CHS",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2948,
+      "Name": "CROISSANT - EVERYTHING BAGEL",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2064,
+      "Name": "BACON & EGG CROISSANT",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2155,
+      "Name": "CHOC CHIP COOKIE CROISSANT",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2854,
+      "Name": "BKY A DONUT VAN ICE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2961,
+      "Name": "BKY A DOUNT CHOC ICE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2026,
+      "Name": "BKY A DONUT CINN SUG",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2526,
+      "Name": "BKY A DONUT RSD GLAZED",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2665,
+      "Name": "BKY A COOKIES & CREAM DONUT",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2669,
+      "Name": "BKY A DBL CHOC GANACHE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2095,
+      "Name": "BKY A MUFFIN BLUEBERRY",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MUFFINS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2104,
+      "Name": "BKY A MUFFIN CHOC CHIP",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MUFFINS",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2031,
+      "Name": "APPLE CRUMB DANISH",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DANISH",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2464,
+      "Name": "CHEESE DANISH",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DANISH",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2065,
+      "Name": "CINNAMON BRIOCHE DANISH",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DANISH",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2337,
+      "Name": "LEMON GLAZED POUND CAKE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "LOAF CAKES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2789,
+      "Name": "BANANA CHOCOLATE CHIP BREAD",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "LOAF CAKES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2601,
+      "Name": "PUMPKIN BREAD",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "LOAF CAKES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2075,
+      "Name": "EVERYTHING COOKIE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2347,
+      "Name": "FROSTED SUGAR COOKIE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2775,
+      "Name": "PEANUT BUTTER CUP COOKIE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2080,
+      "Name": "CHOCOLATE DIPPED CHOC CHIP COOKIE",
+      "Unit Size": "DOZEN",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2408,
+      "Name": "SWEET & SALTY CHOC GANACHE BROWNIE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2497,
+      "Name": "PUMPKIN WHOOPIE PIE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2132,
+      "Name": "WHOOPIE PIE BL/WH",
+      "Unit Size": "DOZEN",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Outpost",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2262,
+      "Name": "BKY BREAD BAGUETTE",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2293,
+      "Name": "BKY BREAD ARTISAN MULTIGRAIN 5/8",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2500,
+      "Name": "SOURDOUGH LOAF",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": "0704",
+      "Name": "PANNINI BREAD",
+      "Unit Size": "LOAF",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "WALK-IN FREEZER (BAKERY)",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2542,
+      "Name": "BKY A CROISSANT PL LG",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2649,
+      "Name": "CROISSANT - CHOCOLATE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2395,
+      "Name": "BKY A CROISSANT HAM/CHS",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2948,
+      "Name": "CROISSANT - EVERYTHING BAGEL",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2064,
+      "Name": "BACON & EGG CROISSANT",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2155,
+      "Name": "CHOC CHIP COOKIE CROISSANT",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "CROISSANTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2854,
+      "Name": "BKY A DONUT VAN ICE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2961,
+      "Name": "BKY A DOUNT CHOC ICE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2026,
+      "Name": "BKY A DONUT CINN SUG",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2526,
+      "Name": "BKY A DONUT RSD GLAZED",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2665,
+      "Name": "BKY A COOKIES & CREAM DONUT",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2669,
+      "Name": "BKY A DBL CHOC GANACHE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DONUTS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2095,
+      "Name": "BKY A MUFFIN BLUEBERRY",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MUFFINS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2104,
+      "Name": "BKY A MUFFIN CHOC CHIP",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MUFFINS",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2031,
+      "Name": "APPLE CRUMB DANISH",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DANISH",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2464,
+      "Name": "CHEESE DANISH",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DANISH",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2065,
+      "Name": "CINNAMON BRIOCHE DANISH",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "DANISH",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2337,
+      "Name": "LEMON GLAZED POUND CAKE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "LOAF CAKES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2789,
+      "Name": "BANANA CHOCOLATE CHIP BREAD",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "LOAF CAKES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2601,
+      "Name": "PUMPKIN BREAD",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "LOAF CAKES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2075,
+      "Name": "EVERYTHING COOKIE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2347,
+      "Name": "FROSTED SUGAR COOKIE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2775,
+      "Name": "PEANUT BUTTER CUP COOKIE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2080,
+      "Name": "CHOCOLATE DIPPED CHOC CHIP COOKIE",
+      "Unit Size": "DOZEN",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2408,
+      "Name": "SWEET & SALTY CHOC GANACHE BROWNIE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2497,
+      "Name": "PUMPKIN WHOOPIE PIE",
+      "Unit Size": "1/2 DZ",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 2132,
+      "Name": "WHOOPIE PIE BL/WH",
+      "Unit Size": "DOZEN",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "BARS & COOKIES",
+      "Location": "Biscotti",
+      "Area": "Bakery"
+    },
+    {
+      "Item ID": 6577,
+      "Name": "STB COLD BREW POWDER (20 BAG/CS)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Coffee",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6207,
+      "Name": "STB COFFEE PIKE PLACE 5OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Coffee",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4657,
+      "Name": "STB ICED COFFEE BLEND 9OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Coffee",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3895,
+      "Name": "STB COFFEE VERANDA 5OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Coffee",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6200,
+      "Name": "STB COFFEE VERONA 5OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Coffee",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6213,
+      "Name": "STB COFFEE WB DECAF ESPRESSO 1LB",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Coffee",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6212,
+      "Name": "STB COFFEE WB ESPRESSO 5LB",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Coffee",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3810,
+      "Name": "STB CRÈME FRAPPUCCINO BASE",
+      "Unit Size": "4/CS",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6230,
+      "Name": "STB COFFEE SYRUP FRAPPUCCINO BASE",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4261,
+      "Name": "SYRUP COFFEE CARAMEL",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4115,
+      "Name": "SYRUP COFFEE CLASSIC",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1835,
+      "Name": "SYRUP COFFEE HAZELNUT",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": "0972",
+      "Name": "SYRUP COFFEE SF VAN",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1975,
+      "Name": "SYRUP COFFEE TOFFEE NUT (SEASONAL - FALL ONLY)",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1842,
+      "Name": "SYRUP COFFE VANILLA",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1945,
+      "Name": "SAUCE COFFEE CARAMEL",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1952,
+      "Name": "STB FLAV BITTERSWT",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1946,
+      "Name": "SAUCE COFFEE CHOC WHIT",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3341,
+      "Name": "STB BROWN SUGAR SYRUP (SEASONAL)",
+      "Unit Size": "6/CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "SYRUPS/SAUCES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4725,
+      "Name": "TEA TEAV ENGLISH BREAKFAST",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4734,
+      "Name": "TEA TEAV CHAMOMILE",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4574,
+      "Name": "TEA TEAV CHAI",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": "0546",
+      "Name": "TEA TEAV RADIANT GREEN",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4723,
+      "Name": "TEA TEAV EARL GREY",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3936,
+      "Name": "TEA TEAV GINGER PEACH GREEN",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4742,
+      "Name": "TEA TEAV HARMONIC MINT",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1804,
+      "Name": "TEA TEAV PASSION (FOR BULK)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4944,
+      "Name": "TEA ICED GREEN (ZEN)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": "0564",
+      "Name": "TEA TEAVANA PEACH TRANQUILITY (S/0)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4578,
+      "Name": "TEA BLACK",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Tea",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6232,
+      "Name": "STB SOY MILK VANILLA",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3877,
+      "Name": "STB COCONUT MILK",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3883,
+      "Name": "STB ALMOND MILK UNFLAVORED",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3457,
+      "Name": "STB OAT MILK (12 QT/CS)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3283,
+      "Name": "TEA CONC TEAV CHAI",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6555,
+      "Name": "STB BEV BASE STRAW/ACAI CON",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3406,
+      "Name": "STB BEV BASE MANGO BASE",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1533,
+      "Name": "STB BEV BASE PINEAPPLE PASSION FRUIT",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "MILK/CONCENTRATES",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": "0437",
+      "Name": "STB MATCHA POWDER (S/O)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3354,
+      "Name": "STB COCOA MALT POWDER (S/0)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6231,
+      "Name": "STB EXTRACT FRAPPUCCINO RS",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3156,
+      "Name": "STB CHIPS FRAPPUCINO",
+      "Unit Size": "LB",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3899,
+      "Name": "STB POWDER VANILLA BEAN (S/0)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6554,
+      "Name": "STB FRU DRIED STRAWBERRY",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3415,
+      "Name": "STB FRU DRIED DRAGON FRUIT",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1532,
+      "Name": "STB FRU DRIED PINEAPPLE",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Misc",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": "0263",
+      "Name": "FILTER COFFEE 15.5X5.5",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3534,
+      "Name": "LID HOT 12/16/20OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4843,
+      "Name": "STB CUP COLD 12OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6256,
+      "Name": "STB CUP COLD 16OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": "0191",
+      "Name": "STB CUP COLD 26OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6251,
+      "Name": "STB CUP HOT 4OZ SHOT (S/0)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6253,
+      "Name": "STB CUP HOT 12OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6254,
+      "Name": "STB CUP HOT 16OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6255,
+      "Name": "STB CUP HOT 20OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3238,
+      "Name": "COLD LID DOME W/HOLE 12/20 OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4554,
+      "Name": "COLD LID DOME W/HOLE 16/24",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4520,
+      "Name": "COLD LID FLAT X-SLOT 12/20 OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3551,
+      "Name": "12 OZ COLD STRAWLESS",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3553,
+      "Name": "16/26 OZ STRAWLESS",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4504,
+      "Name": "COLD LID FLAT X-SLOT 16/24 OZ",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3002,
+      "Name": "*STB PUMP FRAPP ROUND*",
+      "Unit Size": "3PK",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4155,
+      "Name": "STB CUPSLEEVE PRINTED",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6250,
+      "Name": "STB TALL/GRANDE FRAP STRAW",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6257,
+      "Name": "STB STRAWS GREEN 24OZ (NO LONGER AVAIL)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6261,
+      "Name": "STB PUMP SF BLACK",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6260,
+      "Name": "STB PUMP WHITE",
+      "Unit Size": "EACH",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4025,
+      "Name": "CLNER STEAM WAND SCHAERER",
+      "Unit Size": "BOTTL",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3381,
+      "Name": "BAG 1LB WHITE W/WINDOW",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 3120,
+      "Name": "CLNR URNEX COFFEE URN",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4094,
+      "Name": "STB 701 TABLETS",
+      "Unit Size": "JAR",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 6259,
+      "Name": "STB SPLASH STICKS (S/0)",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1021,
+      "Name": "CLNR ECL TRUPOWER RINSE ADD",
+      "Unit Size": "4 -1/GL CS",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Supplies",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": "0576",
+      "Name": "CRM WHIPPING LT AEROSOL",
+      "Unit Size": "CASE",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Non Starbucks Items",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 4566,
+      "Name": "ECO SAN (BISCOTTI ONLY) (SPECIAL ORDER)",
+      "Unit Size": "4/1 G",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Non Starbucks Items",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    },
+    {
+      "Item ID": 1021,
+      "Name": "RINSE DRY  (BISCOTTI ONLY)",
+      "Unit Size": "4/1 G",
+      "PAR": 0,
+      "Order Quantity": 0,
+      "Category": "Non Starbucks Items",
+      "Location": "Biscotti",
+      "Area": "Starbucks"
+    }
   ];
 
   const cacheKey = "orderChanges";
