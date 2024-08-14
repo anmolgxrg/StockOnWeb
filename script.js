@@ -3,6 +3,6626 @@ document.addEventListener("DOMContentLoaded", function () {
   const finishAndSendButton = document.getElementById("finishAndSend");
 
   const data = [
+      {
+        "Item ID": 1187,
+        "Name": "PAN LINERS 16X24.5 (PARCHMENT PAPER)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3090,
+        "Name": "WRAP SUB 18X20 GREASE RESISTANT",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1479,
+        "Name": "WRAP PLSTC FILM 18",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1714,
+        "Name": "WRAP PLSTC FILM 12",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1707,
+        "Name": "WRAP FOIL 18\" 500'",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2152,
+        "Name": "WRAP FOIL POP-UP 12X10",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0905",
+        "Name": "BAG KRAFT - 10 LB",
+        "Unit Size": "BDL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3497,
+        "Name": "BAG GROCERY PAPER 20#",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6792,
+        "Name": "BAG GROCERY PAPER 57#",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4203,
+        "Name": "BAG SANDWICH OPEN 2 SIDED 7X7",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3381,
+        "Name": "BAG 1LB WHITE W/WINDOW",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4638,
+        "Name": "BAG GROCERY PLSTC T-SHIRT \"THANK YOU",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 7552,
+        "Name": "PICNIC PACK HVY WT BLACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3634,
+        "Name": "FLATWARE CUTLEREASE KNIFE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3635,
+        "Name": "FLATWARE CUTLEREASE FORK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3636,
+        "Name": "FLATWARE CUTLEREASE SPOON",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1663,
+        "Name": "STIRRER WOODEN 7.5",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1665,
+        "Name": "STRAW PLSTC JUMBO 7.75",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1570,
+        "Name": "NAPKIN MORNAP 13X12 NAT",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0617",
+        "Name": "GLOVE VINYL PF SM",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1220,
+        "Name": "GLOVE VINYL PF MED",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4782,
+        "Name": "GLOVE VINYL PF LG",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1395,
+        "Name": "GLOVE VINYL PF XL",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1791,
+        "Name": "GLOVES VINYL PF XXL DISPOSABLE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3189,
+        "Name": "SLEEVE BURN CUT RESISTANT",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0415",
+        "Name": "DELI TAPE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0949",
+        "Name": "PIZZA BOX MOBILE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3512,
+        "Name": "CATERING BOX LUNCH",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4969,
+        "Name": "CUP PLSTC SOUFFLE 2 OZ (HOT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4972,
+        "Name": "CUP PLSTC SOUFFLE 4 OZ (HOT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4970,
+        "Name": "LID PLSTC SOUFFLE 2 OZ (HOT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4973,
+        "Name": "LID PLSTC SOUFFLE 4 OZ (HOT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3221,
+        "Name": "CUP PAPER CONE 6 OZ",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3773,
+        "Name": "PLATE - 10",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4613,
+        "Name": "PLATE - 9",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4610,
+        "Name": "PLATE - 6",
+        "Unit Size": "1000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 948,
+        "Name": "BOX PIZZA 16X16X2 CORRGTD",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4374,
+        "Name": "PAPER PLATE - 9",
+        "Unit Size": "1200/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2268,
+        "Name": "TOOTHPICKS  4\" FRILLED",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3302,
+        "Name": "SALAD CONTAINER  W/LID - 12 OZ",
+        "Unit Size": "200/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1877,
+        "Name": "SALAD CONTAINER - 24 OZ",
+        "Unit Size": "504/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1887,
+        "Name": "SALAD LID - 24 OZ",
+        "Unit Size": "504/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3475,
+        "Name": "SQUAT CUPS - 9 OZ",
+        "Unit Size": "1000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4517,
+        "Name": "SQUAT LIDS - 9 OZ",
+        "Unit Size": "1000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0202",
+        "Name": "SOUP BOWL - LG - 12 OZ",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0340",
+        "Name": "SOUP BOWL LIDS",
+        "Unit Size": "1000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4582,
+        "Name": "BOWL COMPOSTABLE - 8 OZ",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4585,
+        "Name": "BOWL COMPOSTABLE - 12 OZ",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3113,
+        "Name": "BOAT - 1/2#",
+        "Unit Size": "1000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3116,
+        "Name": "BOAT - 1#",
+        "Unit Size": "1000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3702,
+        "Name": "BOAT - 3#",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0759",
+        "Name": "BOAT - 2#",
+        "Unit Size": "1000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3246,
+        "Name": "CLEAR BOWL - 24 OZ",
+        "Unit Size": "252/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3251,
+        "Name": "CLEAR BOWL LID - 24 OZ",
+        "Unit Size": "252/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4867,
+        "Name": "CONTAINER - 26 OZ - ASIAN PRINT",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1671,
+        "Name": "WRAP BLACK/WHITE CHECK 12X12",
+        "Unit Size": "5000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3989,
+        "Name": "WRAP BLUE/WHITE CHECK 12X12",
+        "Unit Size": "5000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3191,
+        "Name": "WRAP GREEN/WHITE CHECK 12X12",
+        "Unit Size": "5000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3797,
+        "Name": "WRAP RED/WHITE CHECK 12X12",
+        "Unit Size": "5000/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1825,
+        "Name": "COFFEE FILTER 1.5 GL (STACKS KITCHEN)",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0263",
+        "Name": "COFFEE FILTER 15.5 X 5.5 (BISCOTTI'S)",
+        "Unit Size": "500/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - PAPER & PACKAGING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0724",
+        "Name": "PC DRESS ITALIAN GOLDEN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "PC DRESSING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0727",
+        "Name": "PC DRESS RANCH GARDEN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "PC DRESSING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0548",
+        "Name": "PC DRESS FF HONEY DIJON",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "PC DRESSING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0104",
+        "Name": "PC DRESS CAESAR CRMY",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "PC DRESSING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3734,
+        "Name": "PC DRESS VIN BALSAMIC",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "PC DRESSING",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4763,
+        "Name": "CATSUP - DISP PACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4661,
+        "Name": "BBQ - SAUCE DISP PACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1461,
+        "Name": "RANCH - DISP PACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1474,
+        "Name": "HONEY MUSTARD - DISP PACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0244",
+        "Name": "MAYONAISSE DISP PACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6398,
+        "Name": "FRANKS RED HOT DISP PACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0087",
+        "Name": "DRESS MAYONNAISE GAL (DBL EGG)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2214,
+        "Name": "SAUCE CATSUP",
+        "Unit Size": "3/GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0345",
+        "Name": "PIZZA SAUCE (MARINARA)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0344",
+        "Name": "PASTA SAUCE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0113",
+        "Name": "SAUCE SOY",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1017,
+        "Name": "SPREAD SUNBUTTER CREAMY",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0093",
+        "Name": "SAUCE MUSTARD YELLO",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2568,
+        "Name": "SAUCE BBQ",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3147,
+        "Name": "PASTE GOCHUJANG",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1223,
+        "Name": "SAUCE TAHINI PASTE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0018",
+        "Name": "SAUCE FISH",
+        "Unit Size": "BTL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4071,
+        "Name": "SAUCE HOT",
+        "Unit Size": "GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0057",
+        "Name": "SAUCE CHILI SRIRACHA",
+        "Unit Size": "BTL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2459,
+        "Name": "SAUCE MUSTARD DIJON",
+        "Unit Size": "BTL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0117",
+        "Name": "SAUCE TABASCO",
+        "Unit Size": "BTL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0118",
+        "Name": "SAUCE WORCESTERSHIRE",
+        "Unit Size": "GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0108",
+        "Name": "SAUCE CHEESE CHEDDAR",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0115",
+        "Name": "SAUCE TACO",
+        "Unit Size": "4/GL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2813,
+        "Name": "SAUCE SALSA",
+        "Unit Size": "4/GL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0582",
+        "Name": "JUICE LIME",
+        "Unit Size": "GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3557,
+        "Name": "PASTE MARINADE TANDOORI",
+        "Unit Size": "4LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1567,
+        "Name": "PASTE CURRY RED (2.5 LB)",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1568,
+        "Name": "PASTE TIKKA MASALA (2.5 LB)",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0099",
+        "Name": "PICKLE DILL CHIPS THIN",
+        "Unit Size": "GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0570",
+        "Name": "SWEET PEPPER STRIPS (S/0) (4/1 GALLON)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2276,
+        "Name": "PEPPERS JALAPEN SLCD",
+        "Unit Size": "GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0098",
+        "Name": "PEPPERS PEPPERONCINI HOT WHL GREEN",
+        "Unit Size": "GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6161,
+        "Name": "OIL TRUFFLE WHIT",
+        "Unit Size": "BTL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1800,
+        "Name": "NORI SUSHI TOASTED",
+        "Unit Size": "PKG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1830,
+        "Name": "GRAIN COUS COUS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1014,
+        "Name": "VEG PALM HEART WHL",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0360",
+        "Name": "PANCAKE SYRUP",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4114,
+        "Name": "OIL OLIVE PURE",
+        "Unit Size": "GAL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0443",
+        "Name": "OIL VEG CANOLA",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2213,
+        "Name": "OIL COATING PAN AEROSOL",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0444",
+        "Name": "OIL - FRYER OIL",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4003,
+        "Name": "OIL SESAME",
+        "Unit Size": "56 OZ/CAN",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0404",
+        "Name": "SUGAR",
+        "Unit Size": "50 LB/BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0427",
+        "Name": "FLOUR ALL PURPOSE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4622,
+        "Name": "FLOUR RICE WHITE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0421",
+        "Name": "CORNSTARCH",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0056",
+        "Name": "CORN MEAL",
+        "Unit Size": "50 LB/BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4643,
+        "Name": "WAFFLE MIX",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3505,
+        "Name": "SUGAR BROWN LT 1LB",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1830,
+        "Name": "GRAIN COUSCOUS",
+        "Unit Size": "11LB/BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1900,
+        "Name": "GRAIN QUINOA",
+        "Unit Size": "25LB/BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1491,
+        "Name": "NOODLE RICE STICKS",
+        "Unit Size": "6/LB CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1635,
+        "Name": "PASTA CAVATAPPI (2 - 10LB/CS)",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0214",
+        "Name": "PASTA EGG NOODLES",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2946,
+        "Name": "PASTA FETTUCINE",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0069",
+        "Name": "PASTA LINGUINE",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0211",
+        "Name": "PASTA MACARONI ELBOW",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4275,
+        "Name": "PASTA PENNE",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4673,
+        "Name": "PASTA ZITI",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4309,
+        "Name": "RICE BASMATI",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2613,
+        "Name": "RICE BROWN LONG GRAIN",
+        "Unit Size": "25LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0062",
+        "Name": "RICE CONVERTED LONG",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0399",
+        "Name": "HONEY WHIT CLOVER",
+        "Unit Size": "BTL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0142",
+        "Name": "PC CRACKER SALTINE 2PK",
+        "Unit Size": "500/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4646,
+        "Name": "PC PEANUT BUTTER  O.75 OZ",
+        "Unit Size": "200/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0200",
+        "Name": "PC JELLY STRAWBERRY JAM",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0193",
+        "Name": "PC JELLY GRAPE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4892,
+        "Name": "PC SWTNR ARTFCL SPLENDA",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0407",
+        "Name": "PC SWTNR ARTFCL EQUAL",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1579,
+        "Name": "PC SPICE SALT (6000/CS)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1578,
+        "Name": "PC SPICE PEPPER (6000/CS)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0116",
+        "Name": "PC SAUCE TARTAR (200/CS)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6207,
+        "Name": "COFFEE - PIKE PLACE (5 OZ)",
+        "Unit Size": "32/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3895,
+        "Name": "COFFEE - VERANDA (5 OZ)",
+        "Unit Size": "32/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6200,
+        "Name": "COFFEE - VERONA (5 OZ)",
+        "Unit Size": "32/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6208,
+        "Name": "COFFEE - DECAF - PIKE PLACE (5 OZ)",
+        "Unit Size": "32/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1145,
+        "Name": "SPICE THYME LEAVES",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1146,
+        "Name": "SPICE CARIBBEAN JERK",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1271,
+        "Name": "SPICE PEPPER BLACK CRACKED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1334,
+        "Name": "SPICE CORIANDER GROUND",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1643,
+        "Name": "SPICE KOSHER SALT (3 LB)",
+        "Unit Size": "12/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4258,
+        "Name": "SPICE TACO SEASONING",
+        "Unit Size": "5LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4386,
+        "Name": "SPICE CINNAMON BULK",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4387,
+        "Name": "SPICE BAY LEAVES WHL",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4712,
+        "Name": "SPICE ONION POWDER",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0238",
+        "Name": "SPICE ALLSPICE GROUND",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0241",
+        "Name": "SPICE BASIL LEAVES",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0250",
+        "Name": "SPICE CHILI POWDER DARK",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0256",
+        "Name": "SPICE CUMIN SEED GROUND",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0259",
+        "Name": "SPICE GARLIC POWDER",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0262",
+        "Name": "SPICE GINGER POWDER",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0275",
+        "Name": "SPICE MUSTARD DRY",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0276",
+        "Name": "SPICE NUTMEG",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0280",
+        "Name": "SPICE OREGANO WHOLE",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0282",
+        "Name": "SPICE PAPRIKA GROUND",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0283",
+        "Name": "SPICE PARSLEY FLAKES",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0284",
+        "Name": "SPICE PEPPERCORN BLCK WHL",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0285",
+        "Name": "SPICE PEPPER BLACK GROUND",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0286",
+        "Name": "SPICE PEPPER CAYENNE",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0287",
+        "Name": "SPICE PEPPER RED CRUSHED",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0292",
+        "Name": "SPICE POULTRY SEASONING",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0615",
+        "Name": "SPICE OLD BAY SEASONING",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0761",
+        "Name": "SPICE ROSEMARY",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0298",
+        "Name": "SPICE SALT COOKING",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4086,
+        "Name": "DRY RANCH MIX - HIDDEN VALLEY",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0208",
+        "Name": "PINEAPPLE JUICE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4552,
+        "Name": "NUT PIGNOLI PINE NUTS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1392,
+        "Name": "VEG BEANS REFRIED",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0350",
+        "Name": "VEG TOMATO DICED IN JUICE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0348",
+        "Name": "VEG TOMATO PUREE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0347",
+        "Name": "VEG TOMATO PASTE",
+        "Unit Size": "C",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4227,
+        "Name": "VEG CHILES GREEN DICED",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1817,
+        "Name": "VEG BEANS BLACK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0314",
+        "Name": "VEG BEANS RED KIDNEY",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0317",
+        "Name": "VEG BEANS GREAT NORTHERN (#10/CAN)",
+        "Unit Size": "6/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0349",
+        "Name": "VEG TOMATO CRUSHED CONC (#10/CAN)",
+        "Unit Size": "6/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0330",
+        "Name": "VEG PEAS CHICK",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1396,
+        "Name": "ROASTED RED PEPPERS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1390,
+        "Name": "OLIVE SLCD BLACK",
+        "Unit Size": "CAN",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4826,
+        "Name": "OLIVE PITTED CALAMATA",
+        "Unit Size": "CNTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0197",
+        "Name": "PEANUT BUTTER CRMY",
+        "Unit Size": "JAR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4587,
+        "Name": "NUTELLA 26.5 OZ",
+        "Unit Size": "JAR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0120",
+        "Name": "VINEGAR CIDER",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0663",
+        "Name": "VINEGAR RED WINE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4876,
+        "Name": "VINEGAR BALSAMIC 5LTR",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1247,
+        "Name": "VINEGAR RICE UNSEASONED",
+        "Unit Size": "QT",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3515,
+        "Name": "CHIPS TORTILLA WHITE TRIANGLE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0134",
+        "Name": "CROUTONS SEASONED",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0174",
+        "Name": "RAISINS",
+        "Unit Size": "30LB/BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0235",
+        "Name": "SOUP TOMATO (12-15 OZ)",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0582",
+        "Name": "LIME JUICE",
+        "Unit Size": "GALLON",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1626,
+        "Name": "MIRIN",
+        "Unit Size": "QT",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1160,
+        "Name": "RICE MILK (64 OZ)",
+        "Unit Size": "8/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2143,
+        "Name": "BREAD CRUMBS",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "DRY STORAGE - FOOD",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 42191,
+        "Name": "TURKEY, SLICED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (DELI)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2270,
+        "Name": "ROAST BEEF SELECT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (DELI)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0670",
+        "Name": "SALAMI",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (DELI)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0701",
+        "Name": "HAM",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (DELI)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2926,
+        "Name": "PEPPERONI, SLICED",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (DELI)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1767,
+        "Name": "DELI - PROSCIUTTO (PORK)",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (DELI)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1759,
+        "Name": "BEEF PATTY 5 OZ. (80/20 FRESH)",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4589,
+        "Name": "PORK SAUSAGE PATTY FC 2OZ",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0697",
+        "Name": "BACON SLCD LAYOUT 18-22 CT",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1063,
+        "Name": "TURKEY BACON",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0709",
+        "Name": "CHIX WHIT/DARK DICED FC",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3373,
+        "Name": "CHIX HALAL THIGH BNLS SKNLS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4995,
+        "Name": "CHIX BRST NAT FILET SKNLS GF 4OZ",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1417,
+        "Name": "TURKEY BURGERS 4OZ",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0714",
+        "Name": "CHIX BRST TENDER BRD",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0713",
+        "Name": "CHIX BRST FILET BRD 4OZ (COSMO)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3605,
+        "Name": "BEEF STK SANDWICH 5 OZ",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0966",
+        "Name": "WINGS - BONELESS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0195",
+        "Name": "CHICKEN STRIPS (GRILLED)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0419",
+        "Name": "*  VEGAN BURGER MEAT IMPOSSIBLE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2260,
+        "Name": "TURKEY BREAST RAW BNLS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0584",
+        "Name": "PORK BUTT BNLS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0994",
+        "Name": "CHICKEN WHOLE BROILER/FRYER",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0068",
+        "Name": "FISH COD/HADDOCK BEER BATTERED 2OZ",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1055,
+        "Name": "SHELLFISH - SHRIMP RAW PLD NO TAIL",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2570,
+        "Name": "SHELLFISH - SHRIMP RAW PD 21-25 CT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0933",
+        "Name": "SHELLFISH - SHRIMP RAW P&D 16-20 CT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3168,
+        "Name": "SHELLFISH - SHRIMP BRD 16-20 CT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1001,
+        "Name": "SHELLFISH - CRAB MEAT CLAW",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0741",
+        "Name": "FISH SURIMI SEAFOOD FLAKES",
+        "Unit Size": "24LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0688",
+        "Name": "BEEF MEATBALLS FC 1 OZ",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1519,
+        "Name": "PORK CHOP LOIN - BONE IN (USSO)",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4709,
+        "Name": "PORK LOIN BNLS MBG #414",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4370,
+        "Name": "BEEF RIBEYE MBG #112A (9-11# PIECE)",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3767,
+        "Name": "BEEF BRISKET RAW BNLS MBG #120",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1594,
+        "Name": "BEEF STRIPLOIN BNLS MBG #180",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4819,
+        "Name": "BEEF SLICED MARINATED",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0710",
+        "Name": "CHICKEN QUARTER 8-10 OZ",
+        "Unit Size": "33.75/LB CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4524,
+        "Name": "TURKEY SAUSAGE PATTY RAW 2 OZ",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4897,
+        "Name": "PORK RIB SPARE ST. LOUIS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0669",
+        "Name": "HOT DOG BEEF 8/LB",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3647,
+        "Name": "PORK SAUSAGE ITAL LOOSE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0345",
+        "Name": "SAUCE PIZZA GF",
+        "Unit Size": "10 CN",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 660,
+        "Name": "PORK SAUSAGE ITAL SWT ROPE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4648,
+        "Name": "* BEEF HALAL CERT GROUND 80/20",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4991,
+        "Name": "BEEF STK SKIRT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0051",
+        "Name": "PORK DICED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 656,
+        "Name": "PORK SAUSAGE TOPPING",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0954",
+        "Name": "LAMB HALAL GROUND",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6326,
+        "Name": "VGTN BULGOGI BEEF SOY BASED",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0661",
+        "Name": "PORK SAUSAGE ITAL HOT ROPE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0679",
+        "Name": "BEEF GROUND FRESH",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER/COOLER  (MEATS)",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4024,
+        "Name": "FRENCH TOAST STICKS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1192,
+        "Name": "BISCUIT BUTTERMILK LG FZN",
+        "Unit Size": "120/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4431,
+        "Name": "EGG PATTY WHL",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0508",
+        "Name": "PIEROGIE CHEDDAR CHEESE",
+        "Unit Size": "288 EA/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4410,
+        "Name": "EGGROLL VEG 3 OZ",
+        "Unit Size": "96/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4946,
+        "Name": "APP POTSTICKER PORK STEAMED",
+        "Unit Size": "120/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1538,
+        "Name": "MAC & CH BITES",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1768,
+        "Name": "ONION RINGS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0050",
+        "Name": "POPCORN SHRIMP",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3615,
+        "Name": "FRIED CALAMARI",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1990,
+        "Name": "CHEESE CURDS BRD",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0918",
+        "Name": "WAFFLE FRIES",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4013,
+        "Name": "CHEESE MOZZARELLA STICKS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1249,
+        "Name": "APP PICKLE CHIPS FRIED",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3211,
+        "Name": "HOT DOG ROLL",
+        "Unit Size": "144/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3295,
+        "Name": "ROLL SUB WHIT THAW & SERVE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3294,
+        "Name": "ROLL SUB WHEAT THAW & SERVE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0390",
+        "Name": "ROLL POTATO",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4354,
+        "Name": "WRAP - WHITE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4283,
+        "Name": "WRAP - WHEAT (HONEY WHEAT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3599,
+        "Name": "BAGEL - PLAIN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3571,
+        "Name": "BAGEL - EVERYTHING",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3522,
+        "Name": "BAGEL - CINN RAISIN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3585,
+        "Name": "BAGEL - BLUEBERRY",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0526",
+        "Name": "BAGEL - MINI, SLICED",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0079",
+        "Name": "PRETZEL BUN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0537",
+        "Name": "CROISSANT, SLICED 2 OZ",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0313",
+        "Name": "ROLL CIABATTA 3.2 OZ",
+        "Unit Size": "40EA/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1174,
+        "Name": "BREAD FLAT 6.5\" X 6.5",
+        "Unit Size": "120EA/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1739,
+        "Name": "BREAD - WHEAT (18/SLICE PER LOAF)",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4198,
+        "Name": "BREAD - TEXAS TOAST (14 SLICE PER LOAF)",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0004",
+        "Name": "ROLL GF HAMBURGER",
+        "Unit Size": "24/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4845,
+        "Name": "ROLL GF HOAGIE",
+        "Unit Size": "12EA/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0703",
+        "Name": "BREAD GF SLICED WHITE LOAF",
+        "Unit Size": "6/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0028",
+        "Name": "WRAP PLAIN GF",
+        "Unit Size": "72/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2700,
+        "Name": "BREADSTICK PAR BAKED 1.8 OZ",
+        "Unit Size": "125EA/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4921,
+        "Name": "BREAD NAAN TANDOORI",
+        "Unit Size": "48/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1658,
+        "Name": "TORTILLA CORN 6\" (540/CS)",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3296,
+        "Name": "TORTILLA CORN WHITE 4.5\" (300/CS)",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3554,
+        "Name": "CHURRO REG 10",
+        "Unit Size": "100/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1455,
+        "Name": "GUACOMOLE FZN MILD",
+        "Unit Size": "12LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0501",
+        "Name": "VEG FZN CORN WHL KERNEL YELLOW",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0441",
+        "Name": "VEG FZN GREEN BEANS WHOLE",
+        "Unit Size": "24LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0507",
+        "Name": "VEG FZN PEAS",
+        "Unit Size": "20LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1099,
+        "Name": "VEG FZN BLEND WHL BEAN CARROT",
+        "Unit Size": "24LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0322",
+        "Name": "VEG FZN BLEND KYOTO",
+        "Unit Size": "15LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0321",
+        "Name": "VEG FZN BLEND ANTIGUA",
+        "Unit Size": "24LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0320",
+        "Name": "VEG FZN EDAMAME",
+        "Unit Size": "24LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1959,
+        "Name": "POTATO FRIES (COLOSSAL CRISP)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0511",
+        "Name": "VEG FZN POT F/F/ PATTY (HASHBROWN)",
+        "Unit Size": "120CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0514",
+        "Name": "VEG FZN POTATO F/F STK",
+        "Unit Size": "30LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1236,
+        "Name": "VEG FZN POTATO SWEET WEDGE",
+        "Unit Size": "15LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4302,
+        "Name": "PIZZA DOUGH",
+        "Unit Size": "16/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4692,
+        "Name": "SAUCE PESTO",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0488",
+        "Name": "JUICE FZN LEMON",
+        "Unit Size": "12 QT/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1185,
+        "Name": "VGTN PATTY BLACK BEAN",
+        "Unit Size": "48/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1936,
+        "Name": "VEGAN PATTY 4OZ BEYOND BURGER",
+        "Unit Size": "40/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1264,
+        "Name": "VGTN BURGER CRUMBLES",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1712,
+        "Name": "PASTA FZN GNOCCHI",
+        "Unit Size": "10LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0459",
+        "Name": "PASTA FZN TORTELLINI CHEESE",
+        "Unit Size": "12LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4694,
+        "Name": "SAUCE FZN HUNAN (6/4LB)",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1095,
+        "Name": "SAUCE FZN THAI CHILI GARLIC (6/4LB)",
+        "Unit Size": "CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0487",
+        "Name": "FRU FZN STRAWBERRY SLICED",
+        "Unit Size": "39LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2040,
+        "Name": "BKY BROWNIES",
+        "Unit Size": "40/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2151,
+        "Name": "BKY CS COOKIE CCHIP 3.125",
+        "Unit Size": "36/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1082,
+        "Name": "TORTILLA FLOUR 6",
+        "Unit Size": "PACK",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1960,
+        "Name": "TORTILLA FLOUR 8",
+        "Unit Size": "BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1739,
+        "Name": "BREAD PUR WHET",
+        "Unit Size": "LOAF",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6451,
+        "Name": "ROLL CROISSANT ROUND 2.5OZ",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0534",
+        "Name": "ROLL HAMBURGER HAWAIIAN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3026,
+        "Name": "* BUN PRETZEL SALT KING HAWAIIAN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4832,
+        "Name": "PASTA FZN SHT REG 4OZ",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2815,
+        "Name": "PASTA FZN RAVIOLI CHEESE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2881,
+        "Name": "BKY CS PACK BROOKIE",
+        "Unit Size": "40/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1261,
+        "Name": "CREAMER - FRENCH VANILLA",
+        "Unit Size": "3/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1733,
+        "Name": "CREAMER - ORIGINAL",
+        "Unit Size": "3/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1432,
+        "Name": "CREAMER HAZELNUT",
+        "Unit Size": "3/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1941,
+        "Name": "PICKLE KOSHER DILL SPEAR",
+        "Unit Size": "PAIL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1422,
+        "Name": "BANANA PEPPERS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0765",
+        "Name": "DIJON - HONEY MUSTARD DRESSING",
+        "Unit Size": "4/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0075",
+        "Name": "CAESAR DRESSING",
+        "Unit Size": "4/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4899,
+        "Name": "F/F ITALIAN DRESSING",
+        "Unit Size": "4/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0086",
+        "Name": "ITALIAN DRESSING",
+        "Unit Size": "4/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3469,
+        "Name": "BALSAMIC VINAIGRETTE",
+        "Unit Size": "4/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3488,
+        "Name": "RASPBERRY VINAIGRETTE (S/0)",
+        "Unit Size": "4/CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0545",
+        "Name": "HORSERADISH PREPARED",
+        "Unit Size": "QUART",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4049,
+        "Name": "CREAM CHEESE P/C",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1486,
+        "Name": "CHEESE SWISS SLCD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0984",
+        "Name": "CHEESE PROV SLCD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4798,
+        "Name": "CHEESE PIZZA BLND PROV-MOZZ",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1302,
+        "Name": "CHEESE PEPPER JACK SLCD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0328",
+        "Name": "CHEESE PARM SHRD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0578",
+        "Name": "CHEESE FETA",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0464",
+        "Name": "CHEESE DOMESTIC GRATED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4940,
+        "Name": "CHEESE CHEDDAR SHRED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0021",
+        "Name": "CHEESE CHED WHIT/JACK SHRD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4042,
+        "Name": "CHEESE BLEU CRUMBLED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0456",
+        "Name": "CHEESE AMER YEL SLCD 160CT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0457",
+        "Name": "CHEDDAR BLOCK, COLORE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4056,
+        "Name": "CHEESE, ASIAGO WHEEL",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3403,
+        "Name": "CHEESE, TALEGGIO",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0652",
+        "Name": "CHEESE, QUESO FRESCO",
+        "Unit Size": "5 LB/PACK",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0168",
+        "Name": "CHEESE MOZZ FRESH SLCD 10Z NO BRINE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1526,
+        "Name": "EGG LIQUID WHL",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0469",
+        "Name": "EGG FRESH",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4021,
+        "Name": "HARD BOILED EGGS (WHL PLD COOKED)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1400,
+        "Name": "GREEK YOGURT 0% FAT",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0576",
+        "Name": "CRM WHIPPING LT AEROSOL",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0926",
+        "Name": "SOUP BASE GF VEG GOLDEN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0231",
+        "Name": "SOUP BASE GF CHICKEN",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0631",
+        "Name": "BASE CHIPOTLE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1212,
+        "Name": "SOUP BASE GF TURKEY",
+        "Unit Size": "6/1LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0229",
+        "Name": "SOUP BASE GF BEEF",
+        "Unit Size": "6/1LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4078,
+        "Name": "SOUP BASE GF CLAM",
+        "Unit Size": "6/1LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4686,
+        "Name": "SPICE GINGER PUREE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2609,
+        "Name": "* SOUP BASE GF LOBSTER",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 678,
+        "Name": "* KIM CHI",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4189,
+        "Name": "LIQUOR - BEER YUENGLING CAN",
+        "Unit Size": "12 OZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WINE / BEER / LIQUOR",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0136",
+        "Name": "LIQUOR - BEER GUINNESS CAN",
+        "Unit Size": "14.9 OZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WINE / BEER / LIQUOR",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4151,
+        "Name": "LIQUOR - WINE RED DRY FRANZIA",
+        "Unit Size": "5 LITER",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WINE / BEER / LIQUOR",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4138,
+        "Name": "LIQUOR - WINE WHITE DRY FRANZIA",
+        "Unit Size": "5 LITER",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WINE / BEER / LIQUOR",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4877,
+        "Name": "LIQUOR - VODKA",
+        "Unit Size": "1.75 LTR",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WINE / BEER / LIQUOR",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4994,
+        "Name": "LIQUOR - WINE MARSALA",
+        "Unit Size": "1.5 LITER",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WINE / BEER / LIQUOR",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2746,
+        "Name": "LIQUOR - BRANDY",
+        "Unit Size": "750 ML",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WINE / BEER / LIQUOR",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4801,
+        "Name": "* SAF-CHECK WITH QUAT TEST STRIP",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3047,
+        "Name": "* TOWEL CWC BLUE STRIPE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": "0971",
+        "Name": "REGISTER TAPE MICROS SYSTEM",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 6328,
+        "Name": "REGISTER TAPE STICKY",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2344,
+        "Name": "CLNR ALCOHOL SWAB",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2929,
+        "Name": "DAYDOTS MON 2\" BLUE",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2930,
+        "Name": "DAYDOTS TUE 2\" YEL",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2931,
+        "Name": "DAYDOTS WED 2\" RED",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2935,
+        "Name": "DAYDOTS THUR 2\" BRN",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2936,
+        "Name": "DAYDOTS FRI 2\" GREEN",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2956,
+        "Name": "DAYDOTS SAT 2\" ORANGE",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2957,
+        "Name": "DAYDOTS SUN 2\" BLUE",
+        "Unit Size": "ROLL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3424,
+        "Name": "LABEL PSU EATS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3245,
+        "Name": "SAFTY BAG OPENER",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3021,
+        "Name": "TOWEL QUAT SANITIZING",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1320,
+        "Name": "CLNR KEATING KLENSER",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3265,
+        "Name": "CLNR SOLID POWER XL",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1018,
+        "Name": "CLNR ECL LIME AWAY DELIMING",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 1015,
+        "Name": "CLNR ECL GREASE CUTTER PLUS",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4281,
+        "Name": "CLNR APEX RINSE ADDITIVE",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4724,
+        "Name": "CLNR ALTO SHM SPRAY-COMBITHRM",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4584,
+        "Name": "CLNR ECL PATHWAYS DRAIN (SPECIAL ORDER)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3170,
+        "Name": "PAD SCOURING PURPLE",
+        "Unit Size": "BOX",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4025,
+        "Name": "CLNR STEAM WAND SCHAERER",
+        "Unit Size": "BOTTL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4004,
+        "Name": "CLNR ALTO SHM COMBICLN CTPTAB",
+        "Unit Size": "BKT5",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4534,
+        "Name": "CLNR ECL OASIS QUAT SANITIZER",
+        "Unit Size": "2.5GL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3852,
+        "Name": "CLNR DAWN ORIGINAL 5 GAL",
+        "Unit Size": "QT",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 3120,
+        "Name": "CLNR STB URNEX COFFEE URN PACKET",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 4495,
+        "Name": "CLNR ECL OASIS FLOOR AMMONIATED",
+        "Unit Size": "2.5GL",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SUPPLIES",
+        "Location": "Stacks",
+        "Area": "Stacks General"
+      },
+      {
+        "Item ID": 2262,
+        "Name": "BKY BREAD BAGUETTE",
+        "Unit Size": "LOAF",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2293,
+        "Name": "BKY BREAD ARTISAN MULTIGRAIN 5/8",
+        "Unit Size": "LOAF",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2395,
+        "Name": "BKY A CROISSANT HAM/CHS",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2542,
+        "Name": "BKY A CROISSANT PL LG",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": "",
+        "Name": "SOURDOUGH LOAF",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": "",
+        "Name": "PANINI BREAD",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2948,
+        "Name": "CROISSANT - EVERYTHING BAGEL",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2961,
+        "Name": "BKY A DOUNT CHOC ICE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2026,
+        "Name": "BKY A DONUT CINN SUG",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2526,
+        "Name": "BKY A DONUT RSD GLAZED",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2854,
+        "Name": "BKY A DONUT VAN ICE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2098,
+        "Name": "BKY A MUFFIN BANANA",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2097,
+        "Name": "BKY A MUFFIN BLUEBERRY",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2728,
+        "Name": "BKY A MUFFIN PBJ",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2789,
+        "Name": "BKY CINN SWL LOAF",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2475,
+        "Name": "BKY ZUCCHINI LOAF",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2789,
+        "Name": "BKY BANANA CHIP LOAF",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2433,
+        "Name": "IND BUNDT - LEMON POPPY",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2413,
+        "Name": "BKY Z INDIV CHSCAKE BLUEBERRY",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2318,
+        "Name": "BKY Z SCONE BLUEBERRY",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 1793,
+        "Name": "GRANOLA",
+        "Unit Size": "10LB/BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2067,
+        "Name": "BKY STICKY 2.66 OZ PECAN",
+        "Unit Size": "DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2029,
+        "Name": "BKY STICKY 2.66 OZ PL",
+        "Unit Size": "DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2687,
+        "Name": "BKY A ROLL 2.66 OZ CINN",
+        "Unit Size": "DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2977,
+        "Name": "BKY Z HAZELNUT HAND PIE",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2346,
+        "Name": "BKY BREAD PULL ORANGE GLZ",
+        "Unit Size": "12 CUT LOAF",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2981,
+        "Name": "AUG/SEPT: IND CARAMEL APPLE CHEESCAKE",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2101,
+        "Name": "OCT: PUMPKIN BROWNIE SQUARE",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2984,
+        "Name": "NOV: MAPLE BACON DONUT",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2689,
+        "Name": "DEC: ORANGE MARMALADE STICKY",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2183,
+        "Name": "JAN: APPLE CRUMB HAND TART",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2308,
+        "Name": "FEB: IND CHERRY CHEESECAKE",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2235,
+        "Name": "MARCH: LEPRECHAUN BAIT COOKIES",
+        "Unit Size": "DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2516,
+        "Name": "APRIL/MAY: IND LEMON BERRY CHEESECAKE",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: DESSERT",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2834,
+        "Name": "AUG/SEPT/OCT: PUMPKIN WHITE CHIP SCONE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2631,
+        "Name": "AUG/SEPT/OCT: APPLE CRUMB MUFFIN",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2667,
+        "Name": "NOV/DEC: RASPBERRY CHOCOLATE SCONE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2099,
+        "Name": "NOV/DEC: CRANBERRY ORANGE MUFFIN",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2672,
+        "Name": "JAN/FEB: PECAN CRUMB SCONE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2724,
+        "Name": "JAN/FEB: CHOCOLATE CHIP MUFFIN",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2695,
+        "Name": "MARCH: APRICOT CRUMB SCONE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2900,
+        "Name": "MARCH: PISTACHIO MUFFIN",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2705,
+        "Name": "APRIL/MAY: TRIPLE BERRY SCONE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2941,
+        "Name": "APRIL/MAY: LEMON COCONUT MUFFIN",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "SPECIALS: MUFFIN/SCONE",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2262,
+        "Name": "BKY BREAD BAGUETTE",
+        "Unit Size": "LOAF",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2293,
+        "Name": "BKY BREAD ARTISAN MULTIGRAIN 5/8",
+        "Unit Size": "LOAF",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2395,
+        "Name": "BKY A CROISSANT HAM/CHS",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2542,
+        "Name": "BKY A CROISSANT PL LG",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": "",
+        "Name": "SOURDOUGH LOAF",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": "",
+        "Name": "PANINI BREAD",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2948,
+        "Name": "CROISSANT - EVERYTHING BAGEL",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2961,
+        "Name": "BKY A DOUNT CHOC ICE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2026,
+        "Name": "BKY A DONUT CINN SUG",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2526,
+        "Name": "BKY A DONUT RSD GLAZED",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2854,
+        "Name": "BKY A DONUT VAN ICE",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2098,
+        "Name": "BKY A MUFFIN BANANA",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2097,
+        "Name": "BKY A MUFFIN BLUEBERRY",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2728,
+        "Name": "BKY A MUFFIN PBJ",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2789,
+        "Name": "BKY CINN SWL LOAF",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2475,
+        "Name": "BKY ZUCCHINI LOAF",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2789,
+        "Name": "BKY BANANA CHIP LOAF",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2433,
+        "Name": "IND BUNDT - LEMON POPPY",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2413,
+        "Name": "BKY Z INDIV CHSCAKE BLUEBERRY",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 2318,
+        "Name": "BKY Z SCONE BLUEBERRY",
+        "Unit Size": "1/2 DZ",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": 1793,
+        "Name": "GRANOLA",
+        "Unit Size": "10LB/BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN FREEZER (BAKERY)",
+        "Location": "Stacks",
+        "Area": "Bakery"
+      },
+      {
+        "Item ID": "0752",
+        "Name": "SOUR CREAM REAL 5 QUART",
+        "Unit Size": "5 QT",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "0751",
+        "Name": "MILK HALF&HALF QUART",
+        "Unit Size": "QT",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1521,
+        "Name": "CHOCOLATE MILK 1/2G",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3502,
+        "Name": "MILK 1/2 GAL WHL",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "0923",
+        "Name": "MILK 1/2 GAL SKIM",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "0942",
+        "Name": "MILK 1/2 GAL BUTTER",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1541,
+        "Name": "MILK 1/2 GAL 2%",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1362,
+        "Name": "CRM WHIPPING HEAVY QT",
+        "Unit Size": "QT",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "0466",
+        "Name": "CHEESE RICOTTA 10 LB",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "0753",
+        "Name": "CHEESE CRM 10LB",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4223,
+        "Name": "BUTTER CRMRY UNSALTED 36-1#",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 2543,
+        "Name": "BUTTER CRMRY SALTED BULK",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4417,
+        "Name": "WHOLE MILK - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4418,
+        "Name": "SKIM - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4419,
+        "Name": "CHOCOLATE MILK - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4427,
+        "Name": "MILK 2% CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4842,
+        "Name": "PROTEIN SHAKE - CHOCOLATE",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4846,
+        "Name": "PROTEIN SHAKE - STRAWBERRY",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 5009,
+        "Name": "DR BOBS YOGURT SMOOTHIE STRAWBERRY",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1573,
+        "Name": "ORANGE JUICE - 1/2G",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1589,
+        "Name": "ORANGE JUICE - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1384,
+        "Name": "LEMONADE - 1/2G",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1758,
+        "Name": "LEMONADE - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1006,
+        "Name": "ICED TEA - 1/2G",
+        "Unit Size": "9/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1641,
+        "Name": "ICED TEA - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3321,
+        "Name": "ICED TEA PEACH - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1678,
+        "Name": "ICED TEA GREEN - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3320,
+        "Name": "ICED TEA RASPBERRY - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 7066,
+        "Name": "ICED COFFEE - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 7001,
+        "Name": "ICED MOCHA - CHUG",
+        "Unit Size": "18/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN (CREAMERY)",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "",
+        "Name": "1/2 GALLON",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3182,
+        "Name": "WPSU COFFEE BREAK",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4404,
+        "Name": "VANILLA",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4402,
+        "Name": "PEACHY PATERNO",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4363,
+        "Name": "PB",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3180,
+        "Name": "KEENY BEANY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1683,
+        "Name": "DEATH BY CHOCOLATE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4399,
+        "Name": "COOKIES & CREAM",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4385,
+        "Name": "CH. CHIP COOKIE DOUGH",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4403,
+        "Name": "CHOCOLATE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1685,
+        "Name": "STRAWBERRY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4365,
+        "Name": "BUTTER PECAN",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4383,
+        "Name": "GREEN MINT CHIP",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3081,
+        "Name": "ALUMNI SWIRL",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1684,
+        "Name": "COCONUT CHIP",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "",
+        "Name": "PINTS",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 7742,
+        "Name": "STRAWBERRY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 52080,
+        "Name": "SCHOLARS CHIP",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 52073,
+        "Name": "PB CUP",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3957,
+        "Name": "PEACHY PATERNO",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 7744,
+        "Name": "PB SWIRL",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 52092,
+        "Name": "MONKEY BUSINESS",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 52023,
+        "Name": "HAPPY HAPPY JOY JOY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 7121,
+        "Name": "GRILLED STICKIES",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3950,
+        "Name": "DEATH BY CHOCOLATE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3930,
+        "Name": "COOKIES & CREAM",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 52068,
+        "Name": "CHOCOLATE MARSHMALLOW",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 7745,
+        "Name": "BTRSWT MINT",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 50704,
+        "Name": "ALUMNI SWIRL",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4651,
+        "Name": "THON",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 52252,
+        "Name": "BJC JAMS",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 3916,
+        "Name": "CH. CHIP COOKIE DOUGH",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4937,
+        "Name": "CHOCOLATE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 7740,
+        "Name": "WPSU COFFEE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "",
+        "Name": "ICE CREAM SANDWICHES",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 6195,
+        "Name": "VANILLA",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 6192,
+        "Name": "CHOCOLATE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 6197,
+        "Name": "STRAWBERRY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 6198,
+        "Name": "MINT COOKIE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 6191,
+        "Name": "M&M VANILLA",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": "",
+        "Name": "ICE CREAM CUPS",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 1660,
+        "Name": "STRAWBERRY 5.3 OZ",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4305,
+        "Name": "PEACHY PATERNO 5.3 OZ",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 4299,
+        "Name": "CHOCOLATE 5.3 0Z",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Dairy"
+      },
+      {
+        "Item ID": 54188,
+        "Name": "YOGURT PARFAIT - STRAWBERRY/GRANOLA",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54190,
+        "Name": "WRAP - VEGAN HUMMUS",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54189,
+        "Name": "WRAP - VEGAN BUFFALO",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54163,
+        "Name": "WRAP - TURKEY CLUB",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54164,
+        "Name": "WRAP - GRILLED VEGGIE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54162,
+        "Name": "WRAP -GRILLED CHICKEN CAESAR",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54161,
+        "Name": "WRAP - BUFFALO CHICKEN",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54177,
+        "Name": "SNACK - PROTEIN POWER BOX",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54175,
+        "Name": "SNACK - FRUIT & CHEESE BOX",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54180,
+        "Name": "SNACK - CRUDITE & RANCH",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54178,
+        "Name": "SNACK - CHIX HUMMUS",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54181,
+        "Name": "SNACK - CHEESE & GRAPES",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54176,
+        "Name": "SNACK - BEST FRIENDS BOX",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54158,
+        "Name": "SAND - TURKEY & CHEDDAR",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54157,
+        "Name": "SAND - TOMATO & MOZZARELLA",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54156,
+        "Name": "SAND - PB&J ON WHITE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54160,
+        "Name": "SAND - ITALIAN STALLION (FOOT LONG HERO)",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54155,
+        "Name": "SAND - ITALIAN COMBO",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54154,
+        "Name": "SAND - HONEY TURKEY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54152,
+        "Name": "SAND - HAM & TURKEY CLUB",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54153,
+        "Name": "SAND - GRILLED CHIX & CHEDDAR",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54151,
+        "Name": "SAND - CHIX BACON CLUB",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54150,
+        "Name": "SAND - ASIAGO TURKEY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54174,
+        "Name": "SALAD - SOUTHWESTERN CHIX",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54173,
+        "Name": "SALAD - GREEK",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54172,
+        "Name": "SALAD - GARDEN",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54171,
+        "Name": "SALAD - COBB",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54170,
+        "Name": "SALAD - CHIX CAESAR",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54169,
+        "Name": "SALAD - CHEF",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54165,
+        "Name": "PANINI - BUFFALO CHIX",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54183,
+        "Name": "FRUIT - RED GRAPES",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54184,
+        "Name": "FRUIT - PINEAPPLE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54187,
+        "Name": "FRUIT - MIXED",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54186,
+        "Name": "FRUIT - MIXED BERRIES",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54182,
+        "Name": "FRUIT - CANTALOUPE",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54197,
+        "Name": "ENTRÉE - ROASTED TURKEY",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54195,
+        "Name": "ENTRÉE - CHIX PARM",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54196,
+        "Name": "ENTRÉE - CHIX GENERAL TSO",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54199,
+        "Name": "ENTRÉE - BBQ PULLED PORK",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54193,
+        "Name": "DESSERT - DIRT PUDDING",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54192,
+        "Name": "DESSERT - CANNOLI DIP",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54168,
+        "Name": "BRKFST - SAUSAGE, EGG & CHEESE CROISSANT",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": 54167,
+        "Name": "BRKFST - BAGEL",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "CREAMERY - ICE CREAM",
+        "Location": "Stacks",
+        "Area": "Grab & Go"
+      },
+      {
+        "Item ID": "0683",
+        "Name": "PRD VEG CUCUMBER ENGLISH",
+        "Unit Size": "PAK6",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0807",
+        "Name": "PRD VP CELERY DICED 1/4",
+        "Unit Size": "5/LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0812",
+        "Name": "PRD VP LETTUCE SHRD RIVER RANCH",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1219,
+        "Name": "PRD VP ONION RED DICED 1/4",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 2806,
+        "Name": "PRD VP ONION RED SLCD 1/4",
+        "Unit Size": "5/LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0638",
+        "Name": "PRD VP ONION RED SLCD 1/8",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0815",
+        "Name": "PRD VP ONION WHIT DICED 1/4",
+        "Unit Size": "5/LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0816",
+        "Name": "PRD VP ONION WHIT SLCD 1/4",
+        "Unit Size": "5/LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0817",
+        "Name": "PRD VP ONION WHIT SLCD 1/8",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4061,
+        "Name": "PRD VP PEPPER GREEN SLCD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 3892,
+        "Name": "PRD VP POT REDSKIN DICED 3/4",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 3145,
+        "Name": "PRD VP SMALL BROCCOLI FLORETS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0988",
+        "Name": "PRD VP ROMAINE CHPD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 3582,
+        "Name": "PRD VP SALAD MIX SPRING",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0634",
+        "Name": "PRD VP TOMATO DICED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1087,
+        "Name": "PRD VP TOMATO SLCD 6X6 1/4",
+        "Unit Size": "10 LB/CS",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0801",
+        "Name": "CARROT STICKS 3-5",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0798",
+        "Name": "CARROTS DICED 1/4",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4697,
+        "Name": "CARROTS - SHREDDED FINE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4879,
+        "Name": "CARROTS - BABY",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1751,
+        "Name": "CARROTS W/ TOPS",
+        "Unit Size": "",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0920",
+        "Name": "YUKON GOLD 1/4'S",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4167,
+        "Name": "SLICED MUSHROOMS",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0630",
+        "Name": "DICED BEETS 1/4",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 2489,
+        "Name": "PRD PEPPER GREEN DICED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE (FRESH CUT)",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 3538,
+        "Name": "PRD FRU APPL GALA 125 CT",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1343,
+        "Name": "PRD FRU LIME 48CT",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0857",
+        "Name": "PRD FRU ORANGE 88CT",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4874,
+        "Name": "PRD HERB BASIL",
+        "Unit Size": 1,
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4748,
+        "Name": "PRD HERB CILANTRO",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0828",
+        "Name": "PRD HERB PARSLEY",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1276,
+        "Name": "PRD HERB THYME",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0826",
+        "Name": "PRD EGGPLANT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0825",
+        "Name": "PRD VEG CUCUMBER LG",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4597,
+        "Name": "PRD VEG GARLIC PLD",
+        "Unit Size": "5/LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0872",
+        "Name": "PRD VEG ONION RED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0840",
+        "Name": "PRD VEG ONION SPANISH",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1629,
+        "Name": "PRD VEG PEPPER JALAPENO",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0869",
+        "Name": "PRD VEG POT RED \"A",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4026,
+        "Name": "PRD VEG POT RED \"B",
+        "Unit Size": "BAG",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1366,
+        "Name": "PRD VEG SHALLOT",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1198,
+        "Name": "PRD VEG SHALLOT PLD",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0833",
+        "Name": "PRD VEG TOMATO 6X6",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1388,
+        "Name": "PRD VEG TOMATO GRAPE",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4318,
+        "Name": "PRD VEG TOMATO ROMA",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0850",
+        "Name": "PRD BANANAS",
+        "Unit Size": "40 LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0902",
+        "Name": "PRD BANANAS",
+        "Unit Size": "10 LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0831",
+        "Name": "PRD  GREEN SQUASH (ZUCCHINI) LG",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4941,
+        "Name": "PRD YELLOW SQUASH",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1183,
+        "Name": "PRD BABY SPINACH FRESH",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0827",
+        "Name": "PRD GREEN ONIONS (SCALLIONS)",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4903,
+        "Name": "PRD TOFU (EXTRA FIRM)",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 2824,
+        "Name": "PRD PEPPER RED SWEET",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0846",
+        "Name": "PRD APPLE GOLDEN DELICIOUS (100 CT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0882",
+        "Name": "PRD ASPARAGUS SMALL",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4362,
+        "Name": "PRD POTATO BAKING (90 CT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0856",
+        "Name": "PRD CANTALOUPE (9 CT)",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0855",
+        "Name": "PRD HONEYDEW",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0878",
+        "Name": "PRD PINEAPPLE",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 4242,
+        "Name": "PRD MUHSROOM PORTABELLO",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 874,
+        "Name": "CELERY WHOLE STALK",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1430,
+        "Name": "YAM",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 924,
+        "Name": "BUTTERNUT SQUASH DICED 1",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 3842,
+        "Name": "SNOW PEA SNIPPED",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 735,
+        "Name": "DICED RED PEPPER 1/2''",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 898,
+        "Name": "MANGO DICED 1/4",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 3580,
+        "Name": "Salad Mix Romaine/Iceberg",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 3941,
+        "Name": "Cauliflower Heads",
+        "Unit Size": "9 CT",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1177,
+        "Name": "Poblano Pepper",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 224,
+        "Name": "Brussels Sprouts Halved",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 883,
+        "Name": "Avocado",
+        "Unit Size": "EACH",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 850,
+        "Name": "Banana 40#",
+        "Unit Size": "box",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": 1481,
+        "Name": "Wonton Wrapper",
+        "Unit Size": "CASE",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
+      {
+        "Item ID": "0870",
+        "Name": "PRD PEPPER GREEN BELL",
+        "Unit Size": "LB",
+        "PAR": 0,
+        "Order Quantity": 0,
+        "Category": "WALK-IN PRODUCE",
+        "Location": "Stacks",
+        "Area": "PRODUCE"
+      },
     {
       "Item ID": 3497,
       Name: "BAG GROCERY PAPER 20#",
@@ -6220,9 +12840,9 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentLocationData = []; // To store items filtered by the selected location
 
   const accessCodes = {
-    abg6200: ["Biscotti", "Stacks", "Outpost", "Provisions"], // Example code
+    abg6200: ["Biscotti", "Stacks", "Outpost", "Provisions"],
     rad15: ["Outpost", "Provisions"],
-    ckt5383: ["Biscotti", "Stacks", "Outpost", "Provisions"], // Example code
+    ckt5383: ["Biscotti", "Stacks", "Outpost", "Provisions"],
   };
 
   const deadlines = {
@@ -6478,7 +13098,7 @@ document.addEventListener("DOMContentLoaded", function () {
           orderDetails: JSON.stringify(itemsToOrder),
         });
 
-        // Comment out actual form submission for debugging purposes
+      //   // Comment out actual form submission for debugging purposes
         event.preventDefault();
         this.submit(); // Uncomment this line if you want to enable form submission
       } else {
