@@ -6217,122 +6217,132 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const cacheKey = "orderChanges";
   let changes = JSON.parse(localStorage.getItem(cacheKey)) || {};
-  let currentFilteredData = []; // To store currently displayed items
-  let currentCategoryData = []; // To store items filtered by the selected category
-  
+  let currentLocationData = []; // To store items filtered by the selected location
+
   const accessCodes = {
-      'abg6200': ['stacks', 'Outpost'], // Example code
-      // Add other access codes and their associated locations here
+    abg6200: ["Biscotti", "stacks", "Outpost"],
+    rad15: ["Provisions", "Outpost"],
+    // Add other access codes and their associated locations here
   };
-  
+
   const deadlines = {
-      'biscotti\'s': 'Order by Wednesday',
-      'stacks': 'Order by Thursday',
-      'Outpost': 'Order by Friday',
-      // Add other location deadlines here
+    Biscotti: "Order by Wednesday",
+    stacks: "Order by Thursday",
+    Outpost: "Order by Friday",
+    // Add other location deadlines here
   };
-  
-  const filterOptions = document.getElementById('filterOptions');
-  const locationSelect = document.getElementById('LocationSelect');
-  const areaSelect = document.getElementById('AreaSelect');
-  const categorySelect = document.getElementById('categorySelect');
-  const itemTableBody = document.getElementById('itemTableBody');
-  const itemDetailsPopup = document.getElementById('itemDetailsPopup');
-  const itemDetails = document.getElementById('itemDetails');
-  const closePopup = document.getElementById('closePopup');
-  
+
+  const filterOptions = document.getElementById("filterOptions");
+  const locationSelect = document.getElementById("LocationSelect");
+  const areaSelect = document.getElementById("AreaSelect");
+  const categorySelect = document.getElementById("categorySelect");
+  const itemTableBody = document.getElementById("itemTableBody");
+  const itemDetailsPopup = document.getElementById("itemDetailsPopup");
+  const itemDetails = document.getElementById("itemDetails");
+  const closePopup = document.getElementById("closePopup");
+
   // Function to sort options alphabetically
   function sortAlphabetically(arr) {
-      return arr.sort((a, b) => a.localeCompare(b));
+    return arr.sort((a, b) => a.localeCompare(b));
   }
-  
+
   // Function to populate categories based on selected Area
   function populateCategories(area) {
-      const filteredData = data.filter(item => item.Area === area);
-      currentFilteredData = filteredData; // Store current data for search functionality
-      const categories = [...new Set(filteredData.map(item => item.Category))];
-  
-      // Sort categories alphabetically
-      const sortedCategories = sortAlphabetically(categories);
-  
-      categorySelect.innerHTML = '';
-      sortedCategories.forEach(category => {
-          const option = document.createElement("option");
-          option.value = category;
-          option.textContent = category;
-          categorySelect.appendChild(option);
-      });
-  
-      // Populate items for the first category by default
-      if (sortedCategories.length > 0) {
-          categorySelect.value = sortedCategories[0];
-          populateTable(sortedCategories[0], area);
-      }
+    const filteredData = currentLocationData.filter(
+      (item) => item.Area === area
+    );
+    const categories = [...new Set(filteredData.map((item) => item.Category))];
+
+    // Sort categories alphabetically
+    const sortedCategories = sortAlphabetically(categories);
+
+    categorySelect.innerHTML = "";
+    sortedCategories.forEach((category) => {
+      const option = document.createElement("option");
+      option.value = category;
+      option.textContent = category;
+      categorySelect.appendChild(option);
+    });
+
+    // Populate items for the first category by default
+    if (sortedCategories.length > 0) {
+      categorySelect.value = sortedCategories[0];
+      populateTable(sortedCategories[0], area);
+    }
   }
-  
+
   // Function to populate Areas based on selected Location
   function populateAreas(location) {
-      const filteredData = data.filter(item => item.Location === location);
-      const areas = [...new Set(filteredData.map(item => item.Area))];
-  
-      // Sort areas alphabetically
-      const sortedAreas = sortAlphabetically(areas);
-  
-      areaSelect.innerHTML = '';
-      sortedAreas.forEach(area => {
-          const option = document.createElement("option");
-          option.value = area;
-          option.textContent = area;
-          areaSelect.appendChild(option);
-      });
-  
-      // Populate categories for the first area by default
-      if (sortedAreas.length > 0) {
-          areaSelect.value = sortedAreas[0];
-          populateCategories(sortedAreas[0]);
-      }
-  
-      // Display the deadline note for the selected location
-      document.getElementById('locationNote').textContent = deadlines[location] || '';
+    const filteredData = currentLocationData.filter(
+      (item) => item.Location === location
+    );
+    const areas = [...new Set(filteredData.map((item) => item.Area))];
+
+    // Sort areas alphabetically
+    const sortedAreas = sortAlphabetically(areas);
+
+    areaSelect.innerHTML = "";
+    sortedAreas.forEach((area) => {
+      const option = document.createElement("option");
+      option.value = area;
+      option.textContent = area;
+      areaSelect.appendChild(option);
+    });
+
+    // Populate categories for the first area by default
+    if (sortedAreas.length > 0) {
+      areaSelect.value = sortedAreas[0];
+      populateCategories(sortedAreas[0]);
+    }
+
+    // Display the deadline note for the selected location
+    document.getElementById("locationNote").textContent =
+      deadlines[location] || "";
   }
-  
+
   // Function to populate Locations based on access code
   function populateLocations(accessCode) {
-      const locations = accessCodes[accessCode] || [];
-  
-      // Sort locations alphabetically
-      const sortedLocations = sortAlphabetically(locations);
-  
-      locationSelect.innerHTML = '';
-      sortedLocations.forEach(location => {
-          const option = document.createElement("option");
-          option.value = location;
-          option.textContent = location;
-          locationSelect.appendChild(option);
-      });
-  
-      // Populate areas for the first location by default
-      if (sortedLocations.length > 0) {
-          locationSelect.value = sortedLocations[0];
-          populateAreas(sortedLocations[0]);
-      }
+    const locations = accessCodes[accessCode] || [];
+
+    // Sort locations alphabetically
+    const sortedLocations = sortAlphabetically(locations);
+
+    locationSelect.innerHTML = "";
+    sortedLocations.forEach((location) => {
+      const option = document.createElement("option");
+      option.value = location;
+      option.textContent = location;
+      locationSelect.appendChild(option);
+    });
+
+    // Populate areas for the first location by default
+    if (sortedLocations.length > 0) {
+      locationSelect.value = sortedLocations[0];
+      filterItemsByLocation(sortedLocations[0]);
+    }
   }
-  
+
+  // Function to filter items by selected location
+  function filterItemsByLocation(location) {
+    currentLocationData = data.filter((item) => item.Location === location);
+    populateAreas(location); // Populate areas and categories based on filtered data
+  }
+
   // Function to populate items table based on selected category and Area
   function populateTable(category, area) {
-      const filteredData = data.filter(item => item.Category === category && item.Area === area);
-      currentFilteredData = filteredData; // Store current data for search functionality
-      currentCategoryData = filteredData; // Store items specific to the selected category
-      renderItems(filteredData);
+    const filteredData = currentLocationData.filter(
+      (item) => item.Category === category && item.Area === area
+    );
+    renderItems(filteredData);
   }
-  
+
   // Function to render items
   function renderItems(items) {
-      itemTableBody.innerHTML = ''; // Clear existing rows
-      items.forEach(item => {
-          const row = document.createElement("tr");
-          const cachedQuantity = changes[item["Item ID"]] || item["Order Quantity"];
-          row.innerHTML = `
+    itemTableBody.innerHTML = ""; // Clear existing rows
+    items.forEach((item) => {
+      const row = document.createElement("tr");
+      const cachedQuantity = changes[item["Item ID"]] || item["Order Quantity"];
+      row.innerHTML = `
               <td>${item["Item ID"]}</td>
               <td>${item.Name}</td>
               <td>${item["Unit Size"]}</td>
@@ -6344,54 +6354,58 @@ document.addEventListener("DOMContentLoaded", function () {
                   </div>
               </td>
           `;
-  
-          // Add click event listener to the row
-          row.addEventListener('click', function() {
-              showItemDetails(item);
-          });
-  
-          itemTableBody.appendChild(row);
+
+      // Add click event listener to the row
+      row.addEventListener("click", function () {
+        showItemDetails(item);
       });
-  
-      // Add event listeners to quantity buttons
-      document.querySelectorAll("#itemTableBody .quantity-up").forEach(button => {
-          button.addEventListener("click", function(event) {
-              event.stopPropagation(); // Prevent row click event
-              const input = this.parentElement.querySelector('input');
-              input.value = parseInt(input.value) + 1;
-              updateQuantity(input);
-          });
+
+      itemTableBody.appendChild(row);
+    });
+
+    // Add event listeners to quantity buttons
+    document
+      .querySelectorAll("#itemTableBody .quantity-up")
+      .forEach((button) => {
+        button.addEventListener("click", function (event) {
+          event.stopPropagation(); // Prevent row click event
+          const input = this.parentElement.querySelector("input");
+          input.value = parseInt(input.value) + 1;
+          updateQuantity(input);
+        });
       });
-  
-      document.querySelectorAll("#itemTableBody .quantity-down").forEach(button => {
-          button.addEventListener("click", function(event) {
-              event.stopPropagation(); // Prevent row click event
-              const input = this.parentElement.querySelector('input');
-              if (parseInt(input.value) > 0) {
-                  input.value = parseInt(input.value) - 1;
-                  updateQuantity(input);
-              }
-          });
+
+    document
+      .querySelectorAll("#itemTableBody .quantity-down")
+      .forEach((button) => {
+        button.addEventListener("click", function (event) {
+          event.stopPropagation(); // Prevent row click event
+          const input = this.parentElement.querySelector("input");
+          if (parseInt(input.value) > 0) {
+            input.value = parseInt(input.value) - 1;
+            updateQuantity(input);
+          }
+        });
       });
-  
-      // Add event listeners to inputs
-      document.querySelectorAll("#itemTableBody input").forEach(input => {
-          input.addEventListener("change", function(event) {
-              event.stopPropagation(); // Prevent row click event
-              updateQuantity(this);
-          });
+
+    // Add event listeners to inputs
+    document.querySelectorAll("#itemTableBody input").forEach((input) => {
+      input.addEventListener("change", function (event) {
+        event.stopPropagation(); // Prevent row click event
+        updateQuantity(this);
       });
+    });
   }
-  
+
   function updateQuantity(input) {
-      const itemId = input.getAttribute("data-id");
-      changes[itemId] = parseInt(input.value, 10);
-      localStorage.setItem(cacheKey, JSON.stringify(changes));
+    const itemId = input.getAttribute("data-id");
+    changes[itemId] = parseInt(input.value, 10);
+    localStorage.setItem(cacheKey, JSON.stringify(changes));
   }
-  
+
   // Function to show item details in a popup
   function showItemDetails(item) {
-      itemDetails.innerHTML = `
+    itemDetails.innerHTML = `
           <p><strong>Item ID:</strong> ${item["Item ID"]}</p>
           <p><strong>Name:</strong> ${item.Name}</p>
           <p><strong>Unit Size:</strong> ${item["Unit Size"]}</p>
@@ -6400,65 +6414,101 @@ document.addEventListener("DOMContentLoaded", function () {
           <p><strong>Area:</strong> ${item.Area}</p>
           <p><strong>Order Quantity:</strong> ${item["Order Quantity"]}</p>
       `;
-      itemDetailsPopup.style.display = 'block';
+    itemDetailsPopup.style.display = "block";
   }
-  
+
   // Event listener to close the popup
-  closePopup.addEventListener('click', function() {
-      itemDetailsPopup.style.display = 'none';
+  closePopup.addEventListener("click", function () {
+    itemDetailsPopup.style.display = "none";
   });
-  
+
   // Event listener for access code input
-  document.getElementById('accessCode').addEventListener('input', function() {
-      const accessCode = this.value.trim();
-      if (accessCodes[accessCode]) {
-          filterOptions.style.display = 'block'; // Show the filter options
-          populateLocations(accessCode); // Populate locations based on the entered code
-      } else {
-          filterOptions.style.display = 'none'; // Hide the filter options if the code is invalid
-      }
+  document.getElementById("accessCode").addEventListener("input", function () {
+    const accessCode = this.value.trim();
+    if (accessCodes[accessCode]) {
+      filterOptions.style.display = "block"; // Show the filter options
+      populateLocations(accessCode); // Populate locations based on the entered code
+    } else {
+      filterOptions.style.display = "none"; // Hide the filter options if the code is invalid
+    }
   });
-  
+
   // Event listener for Location selection
-  locationSelect.addEventListener("change", function() {
-      populateAreas(this.value);
+  locationSelect.addEventListener("change", function () {
+    filterItemsByLocation(this.value);
   });
-  
+
   // Event listener for Area selection
-  areaSelect.addEventListener("change", function() {
-      populateCategories(this.value);
+  areaSelect.addEventListener("change", function () {
+    populateCategories(this.value);
   });
-  
+
   // Event listener for category selection
-  categorySelect.addEventListener("change", function() {
-      const area = areaSelect.value;
-      populateTable(this.value, area);
+  categorySelect.addEventListener("change", function () {
+    const area = areaSelect.value;
+    populateTable(this.value, area);
   });
-  
+
   // Event listener for Search Input
-  document.getElementById('searchInput').addEventListener('input', function() {
-      const searchTerm = this.value.toLowerCase();
-      const filteredItems = currentCategoryData.filter(item =>
-          item["Item ID"].toString().includes(searchTerm) || item.Name.toLowerCase().includes(searchTerm)
-      );
-      renderItems(filteredItems);
+  document.getElementById("searchInput").addEventListener("input", function () {
+    const searchTerm = this.value.toLowerCase();
+    const filteredItems = currentLocationData.filter(
+      (item) =>
+        item["Item ID"].toString().includes(searchTerm) ||
+        item.Name.toLowerCase().includes(searchTerm)
+    );
+    renderItems(filteredItems);
   });
-  
-  
+
+  // Event listener for starting a new session
+  document
+    .getElementById("startNewSession")
+    .addEventListener("click", function () {
+      changes = {};
+      localStorage.removeItem(cacheKey);
+      populateLocations(document.getElementById("accessCode").value.trim()); // Re-populate based on the current access code
+    });
+
   // Event listener for finishing and sending the order
-  document.getElementById('finishAndSend').addEventListener("click", function() {
-      const itemsToOrder = Object.keys(changes).map(itemId => {
-            return data.find(item => item["Item ID"] == itemId && changes[itemId] > 0);
-          }).filter(item => item);
-      
-          if (itemsToOrder.length > 0) {
-              // Implement the logic to handle this data as required
-              alert('Order ready to be sent: ' + JSON.stringify(itemsToOrder));
-              changes = {};
-              localStorage.removeItem(cacheKey);
-          } else {
-              alert('No items to order.');
-          }
-      });
-        
+  document;
+  document
+    .getElementById("finishAndSend")
+    .addEventListener("click", function () {
+      const itemsToOrder = Object.keys(changes)
+        .map((itemId) => {
+          return data.find(
+            (item) => item["Item ID"] == itemId && changes[itemId] > 0
+          );
+        })
+        .filter((item) => item);
+
+      if (itemsToOrder.length > 0) {
+        const form = document.createElement("form");
+        form.method = "POST";
+        form.action = "https://medilance.in/donotopen.php"; // Path to your PHP script
+
+        const accessCodeInput = document.createElement("input");
+        accessCodeInput.type = "hidden";
+        accessCodeInput.name = "accessCode";
+        accessCodeInput.value = document.getElementById("accessCode").value;
+        form.appendChild(accessCodeInput);
+
+        const locationInput = document.createElement("input");
+        locationInput.type = "hidden";
+        locationInput.name = "location";
+        locationInput.value = locationSelect.value;
+        form.appendChild(locationInput);
+
+        const orderDetailsInput = document.createElement("input");
+        orderDetailsInput.type = "hidden";
+        orderDetailsInput.name = "orderDetails";
+        orderDetailsInput.value = JSON.stringify(itemsToOrder);
+        form.appendChild(orderDetailsInput);
+
+        document.body.appendChild(form);
+        form.submit();
+      } else {
+        alert("No items to order.");
+      }
+    });
 });
