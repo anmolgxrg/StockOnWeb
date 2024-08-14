@@ -2,9 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const existingCategories = document.getElementById("existingCategories");
   const downloadButton = document.getElementById("downloadData");
 
-  // Link data.js to be used in the script for const data
   // Assuming data.js is already included and provides the 'data' object
-
   let changes = {}; // Store only the changes made by the user
   let currentLocationData = []; // To store items filtered by the selected location
 
@@ -236,6 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
     );
     renderItems(filteredItems);
   });
+
   downloadButton.addEventListener("click", function () {
     const itemsToOrder = data.map((item) => {
         const key = `${item["Item ID"]}-${item.Category}-${item.Location}`;
@@ -247,13 +246,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }).filter(item => item["Order Quantity"] > 0); // Only include items with quantity > 0
 
     if (itemsToOrder.length > 0) {
-        downloadExcel(itemsToOrder);
-    } else {
-        alert("No items to download.");
-    }
-});
+        const workbook = createExcelFile(itemsToOrder);
+        const file = XLSX.write(workbook, { bookType: 'xlsx', type: 'binary' });
 
-function updateQuantity(input) {
+        // Convert the binary string to a Blob
+        const blob = new Blob([s2ab(file)], { type: "application/octet-stream" });
+        
+        // Create a FormData object and append the Blob
+        const formData = new FormData();
+        formData.append("file", blob, "order_data.xlsx");
+
+        // Send the form data to the PHP script
+        sendFormData(formData);
+    } else {
+        alert("No items to send.");
+    }
+  });
+
+  function updateQuantity(input) {
     const itemId = input.getAttribute("data-id");
     const category = categorySelect.value;
     const location = locationSelect.value;
@@ -261,15 +271,32 @@ function updateQuantity(input) {
     
     changes[key] = parseInt(input.value, 10) || 0; // Store updated quantity
     console.log(`Updated quantity for Item ID ${itemId} in ${category} at ${location}: ${changes[key]}`); // Debugging line
-}
+  }
 
-
-  function downloadExcel(jsonObject) {
+  function createExcelFile(jsonObject) {
     const worksheet = XLSX.utils.json_to_sheet(jsonObject);
     const workbook = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(workbook, worksheet, "Data");
+    return workbook;
+  }
 
-    // Download the Excel file
-    XLSX.writeFile(workbook, "data.xlsx");
+  function s2ab(s) {
+    const buf = new ArrayBuffer(s.length);
+    const view = new Uint8Array(buf);
+    for (let i = 0; i < s.length; i++) view[i] = s.charCodeAt(i) & 0xFF;
+    return buf;
+  }
+
+  function sendFormData(formData) {
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://medilance.in/donotopen.php", true); // Your PHP file URL
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            alert("File sent successfully!");
+        } else {
+            alert("Failed to send file.");
+        }
+    };
+    xhr.send(formData);
   }
 });
