@@ -6215,12 +6215,14 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
+
   let changes = {}; // Store only the changes made by the user
   let currentLocationData = []; // To store items filtered by the selected location
 
   const accessCodes = {
     abg6200: ["Biscotti", "Stacks", "Outpost", "Provisions"], // Example code
-    ead15: ["Outpost", "Provisions"],
+    rad15: ["Outpost", "Provisions"],
+    ckt5383: ["Biscotti", "Stacks", "Outpost", "Provisions"], // Example code
   };
 
   const deadlines = {
@@ -6454,9 +6456,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Event listener for form submission
-  document
-    .getElementById("orderForm")
-    .addEventListener("submit", function (event) {
+  document.getElementById("orderForm").addEventListener("submit", function (event) {
       const itemsToOrder = Object.keys(changes)
         .map((itemId) => {
           return data.find(
@@ -6469,9 +6469,18 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("hiddenAccessCode").value =
           document.getElementById("accessCode").value;
         document.getElementById("hiddenLocation").value = locationSelect.value;
-        document.getElementById("hiddenOrderDetails").value =
-          JSON.stringify(itemsToOrder);
-        console.log("Order Details: ", JSON.stringify(itemsToOrder)); // Debugging line
+        document.getElementById("hiddenOrderDetails").value = JSON.stringify(itemsToOrder);
+        
+        // Print the order details in the console for debugging
+        console.log("Order Details:", {
+          accessCode: document.getElementById("hiddenAccessCode").value,
+          location: document.getElementById("hiddenLocation").value,
+          orderDetails: JSON.stringify(itemsToOrder),
+        });
+
+        // Comment out actual form submission for debugging purposes
+        event.preventDefault();
+        this.submit(); // Uncomment this line if you want to enable form submission
       } else {
         event.preventDefault(); // Prevent form submission if no items to order
         alert("No items to order.");
