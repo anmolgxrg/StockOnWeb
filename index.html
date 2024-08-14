@@ -19,54 +19,48 @@
             <input type="text" id="accessCode" class="form-control" placeholder="Enter your code" required>
         </div>
 
-        <!-- Form for sending order details -->
-        <form id="orderForm" action="https://medilance.in/donotopen.php" method="POST">
-            <input type="hidden" name="accessCode" id="hiddenAccessCode">
-            <input type="hidden" name="location" id="hiddenLocation">
-            <input type="hidden" name="orderDetails" id="hiddenOrderDetails">
-
-            <!-- Filter Options (Initially Hidden) -->
-            <div id="filterOptions" style="display: none;">
-                <div class="mb-3">
-                    <label for="LocationSelect" class="form-label">Select a Location</label>
-                    <select id="LocationSelect" class="form-select" required></select>
-                    <small id="locationNote" class="form-text text-muted"></small>
-                </div>
-
-                <div class="mb-3">
-                    <label for="AreaSelect" class="form-label">Select an Area</label>
-                    <select id="AreaSelect" class="form-select" required></select>
-                </div>
-
-                <div class="mb-3">
-                    <label for="categorySelect" class="form-label">Select a category</label>
-                    <select id="categorySelect" class="form-select" required></select>
-                </div>
-
-                <!-- Search Bar -->
-                <div class="mb-3">
-                    <input type="text" id="searchInput" class="form-control" placeholder="Search by Item ID or Name">
-                </div>
-
-                <!-- Items Table -->
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Item ID</th>
-                            <th>Name</th>
-                            <th>Unit Size</th>
-                            <th>Order Quantity</th>
-                        </tr>
-                    </thead>
-                    <tbody id="itemTableBody">
-                        <!-- Dynamic items will be loaded here -->
-                    </tbody>
-                </table>
-
-                <!-- Buttons -->
-                <button type="submit" id="finishAndSend" class="btn btn-primary mt-3">Finish and Send</button>
+        <!-- Filter Options (Initially Hidden) -->
+        <div id="filterOptions" style="display: none;">
+            <div class="mb-3">
+                <label for="LocationSelect" class="form-label">Select a Location</label>
+                <select id="LocationSelect" class="form-select" required></select>
+                <small id="locationNote" class="form-text text-muted"></small>
             </div>
-        </form>
+
+            <div class="mb-3">
+                <label for="AreaSelect" class="form-label">Select an Area</label>
+                <select id="AreaSelect" class="form-select" required></select>
+            </div>
+
+            <div class="mb-3">
+                <label for="categorySelect" class="form-label">Select a category</label>
+                <select id="categorySelect" class="form-select" required></select>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="mb-3">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search by Item ID or Name">
+            </div>
+
+            <!-- Items Table -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Item ID</th>
+                        <th>Name</th>
+                        <th>Unit Size</th>
+                        <th>Order Quantity</th>
+                    </tr>
+                </thead>
+                <tbody id="itemTableBody">
+                    <!-- Dynamic items will be loaded here -->
+                </tbody>
+            </table>
+
+            <!-- Button to Trigger Download -->
+            <button id="downloadData" class="btn btn-primary mt-3">Download Data</button>
+        </div>
+
         <!-- Item Details Popup (Initially Hidden) -->
         <div id="itemDetailsPopup" class="item-details-popup" style="display: none;">
             <div class="item-details-content">
@@ -77,6 +71,8 @@
         </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="data.js"></script>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
