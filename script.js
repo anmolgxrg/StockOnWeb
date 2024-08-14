@@ -6469,46 +6469,18 @@ document.addEventListener("DOMContentLoaded", function () {
       populateLocations(document.getElementById("accessCode").value.trim()); // Re-populate based on the current access code
     });
 
-  // Event listener for finishing and sending the order
-  document;
-  document
-    .getElementById("finishAndSend")
-    .addEventListener("click", function () {
-      const itemsToOrder = Object.keys(changes)
-        .map((itemId) => {
-          return data.find(
-            (item) => item["Item ID"] == itemId && changes[itemId] > 0
-          );
-        })
-        .filter((item) => item);
-
+    document.getElementById('finishAndSend').addEventListener("click", function() {
+      const itemsToOrder = Object.keys(changes).map(itemId => {
+          return data.find(item => item["Item ID"] == itemId && changes[itemId] > 0);
+      }).filter(item => item);
+  
       if (itemsToOrder.length > 0) {
-        const form = document.createElement("form");
-        form.method = "POST";
-        form.action = "https://medilance.in/donotopen.php"; // Path to your PHP script
-
-        const accessCodeInput = document.createElement("input");
-        accessCodeInput.type = "hidden";
-        accessCodeInput.name = "accessCode";
-        accessCodeInput.value = document.getElementById("accessCode").value;
-        form.appendChild(accessCodeInput);
-
-        const locationInput = document.createElement("input");
-        locationInput.type = "hidden";
-        locationInput.name = "location";
-        locationInput.value = locationSelect.value;
-        form.appendChild(locationInput);
-
-        const orderDetailsInput = document.createElement("input");
-        orderDetailsInput.type = "hidden";
-        orderDetailsInput.name = "orderDetails";
-        orderDetailsInput.value = JSON.stringify(itemsToOrder);
-        form.appendChild(orderDetailsInput);
-
-        document.body.appendChild(form);
-        form.submit();
+          document.getElementById('hiddenAccessCode').value = document.getElementById('accessCode').value;
+          document.getElementById('hiddenLocation').value = locationSelect.value;
+          document.getElementById('hiddenOrderDetails').value = JSON.stringify(itemsToOrder);
       } else {
-        alert("No items to order.");
+          alert('No items to order.');
+          return false;  // Prevent form submission if no items to order
       }
-    });
-});
+  });
+  
