@@ -6380,8 +6380,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const itemId = input.getAttribute("data-id");
       changes[itemId] = parseInt(input.value, 10);
       localStorage.setItem(cacheKey, JSON.stringify(changes));
-  
-      console.log(`Updated quantity for Item ID ${itemId}: ${changes[itemId]}`); // Debugging line
   }
   
   // Event listener for access code input
@@ -6442,5 +6440,4 @@ document.addEventListener("DOMContentLoaded", function () {
           alert('No items to order.');
       }
   });
-  
 });
