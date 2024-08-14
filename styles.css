@@ -38,14 +38,30 @@ table {
     align-items: center;
 }
 
-.quantity-control button {
+.quantity-up {
     background-color: #7109f9;
     color: white;
     border: none;
     width: 30px;
     height: 30px;
     cursor: pointer;
-    border-radius: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0; 
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.quantity-down {
+    background-color: #7109f9;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 0.5rem 0 0 0.5rem; 
+    text-align: center;
+    margin: 0;
+    justify-content: center;
 }
 
 .quantity-control input {
