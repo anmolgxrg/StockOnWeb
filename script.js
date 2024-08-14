@@ -6401,8 +6401,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const itemId = input.getAttribute("data-id");
       changes[itemId] = parseInt(input.value, 10);
       localStorage.setItem(cacheKey, JSON.stringify(changes));
-  
-      console.log(`Updated quantity for Item ID ${itemId}: ${changes[itemId]}`); // Debugging line
   }
 
   // Function to show item details in a popup
@@ -6485,5 +6483,4 @@ document.addEventListener("DOMContentLoaded", function () {
           return false;  // Prevent form submission if no items to order
       }
   });
-  
 });
